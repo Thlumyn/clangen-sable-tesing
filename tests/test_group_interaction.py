@@ -38,7 +38,7 @@ class MainCatFiltering(unittest.TestCase):
         interaction1.status_constraint = {"m_c": ["warrior"]}
 
         interaction2 = GroupInteraction("2")
-        interaction2.status_constraint = {"m_c": ["healer"]}
+        interaction2.status_constraint = {"m_c": ["medicine cat"]}
 
         # when
         all_interactions = [interaction1, interaction2]
@@ -60,7 +60,7 @@ class MainCatFiltering(unittest.TestCase):
         interaction1.status_constraint = {"m_c": ["warrior"]}
 
         interaction2 = GroupInteraction("2")
-        interaction2.status_constraint = {"m_c": ["healer", "warrior"]}
+        interaction2.status_constraint = {"m_c": ["medicine cat", "warrior"]}
 
         # when
         all_interactions = [interaction1, interaction2]
@@ -228,7 +228,7 @@ class Abbreviations(unittest.TestCase):
         interaction1.status_constraint = {"r_c1": ["warrior"]}
 
         interaction2 = GroupInteraction("2")
-        interaction2.status_constraint = {"r_c1": ["healer", "warrior"]}
+        interaction2.status_constraint = {"r_c1": ["medicine cat", "warrior"]}
 
         # when
         all_interactions = [interaction1, interaction2]
@@ -258,7 +258,7 @@ class Abbreviations(unittest.TestCase):
         interaction1.status_constraint = {"r_c1": ["warrior"]}
 
         interaction2 = GroupInteraction("2")
-        interaction2.status_constraint = {"r_c1": ["healer"]}
+        interaction2.status_constraint = {"r_c1": ["medicine cat"]}
         
         # when
         all_interactions = [interaction1, interaction2]

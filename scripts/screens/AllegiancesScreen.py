@@ -353,12 +353,12 @@ class AllegiancesScreen(Screens):
                 ]
             )
 
-        # Healer Box:
+        # medicine cat Box:
         if living_meds:
             for i in range(len(living_meds)):    
                 _box = ["", "", "", ""]
                 if i == 0:    
-                    _box[0] = f"<b><u>{i18n.t('general.healer', count=len(living_meds)).upper()}</u></b>"
+                    _box[0] = f"<b><u>{i18n.t('general.medicine cat', count=len(living_meds)).upper()}</u></b>"
                 else:
                     _box[0] = ""
                 x = self.generate_one_entry(living_meds[i])

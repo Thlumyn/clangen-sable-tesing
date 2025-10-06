@@ -523,11 +523,11 @@ class RelationshipScreen(Screens):
                     )
 
             # Gender
-            if 'trans molly' in self.inspect_cat.genderalign:
+            if 'trans she-cat' in self.inspect_cat.genderalign:
                 gender_icon = image_cache.load_image("resources/images/transfem_big.png").convert_alpha()
             elif 'trans tom' in self.inspect_cat.genderalign:
                 gender_icon = image_cache.load_image("resources/images/transmasc_big.png").convert_alpha()
-            elif 'molly' in self.inspect_cat.genderalign:
+            elif 'she-cat' in self.inspect_cat.genderalign:
                 gender_icon = image_cache.load_image("resources/images/female_big.png").convert_alpha()
             elif 'tom' in self.inspect_cat.genderalign:
                 gender_icon = image_cache.load_image("resources/images/male_big.png").convert_alpha()
@@ -576,14 +576,14 @@ class RelationshipScreen(Screens):
             if related:
                 relation = ""
                 if self.the_cat.is_uncle_aunt(self.inspect_cat):
-                    if self.inspect_cat.genderalign in ['molly', 'trans molly']:
+                    if self.inspect_cat.genderalign in ['she-cat', 'trans she-cat']:
                         relation = "general.niece"
                     elif self.inspect_cat.genderalign in ['tom', 'trans tom']:
                         relation = "general.nephew"
                     else:
                         relation = "general.siblings_child"
                 elif self.inspect_cat.is_uncle_aunt(self.the_cat):
-                    if self.inspect_cat.genderalign in ['molly', 'trans molly']:
+                    if self.inspect_cat.genderalign in ['she-cat', 'trans she-cat']:
                         relation = "general.aunt"
                     elif self.inspect_cat.genderalign in ['tom', 'trans tom']:
                         relation = "general.uncle"
@@ -768,11 +768,11 @@ class RelationshipScreen(Screens):
         )
         self.relation_list_elements["name" + str(i)].disable()
         # Gender alignment
-        if the_relationship.cat_to.genderalign.replace("intersex ", "") == 'molly':
+        if the_relationship.cat_to.genderalign.replace("intersex ", "") == 'she-cat':
             gender_icon = image_cache.load_image("resources/images/female_big.png").convert_alpha()
         elif the_relationship.cat_to.genderalign.replace("intersex ", "") == 'tom':
             gender_icon = image_cache.load_image("resources/images/male_big.png").convert_alpha()
-        elif the_relationship.cat_to.genderalign.replace("intersex ", "") == 'trans molly':
+        elif the_relationship.cat_to.genderalign.replace("intersex ", "") == 'trans she-cat':
             gender_icon = image_cache.load_image("resources/images/transfem_big.png").convert_alpha()
         elif the_relationship.cat_to.genderalign.replace("intersex ", "") == 'trans tom':
             gender_icon = image_cache.load_image("resources/images/transmasc_big.png").convert_alpha()

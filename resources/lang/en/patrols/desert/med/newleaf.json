@@ -10,7 +10,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
+            "medicine cat": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
@@ -78,7 +78,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
+            "medicine cat": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -102,7 +102,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one healer to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -147,7 +147,7 @@
                 ]
             },
             {
-                "text": "As the healers search deep within the slot canyons for the precious herbs that will keep c_n going, a light rain shower falls. Water, on any other day good news, instead spells doom. The rushing water sweeps through the canyon in a flash flood. r_c hears it coming, shoving r_c2 towards the canyon walls, but they can't both fit on the little ledge, and r_c loses their grip on the rock, falling beneath the rushing water.",
+                "text": "As the medicine cats search deep within the slot canyons for the precious herbs that will keep c_n going, a light rain shower falls. Water, on any other day good news, instead spells doom. The rushing water sweeps through the canyon in a flash flood. r_c hears it coming, shoving r_c2 towards the canyon walls, but they can't both fit on the little ledge, and r_c loses their grip on the rock, falling beneath the rushing water.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"],
@@ -173,10 +173,10 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "Sniffing for daisies, p_l begins a story. Once, eons ago, during the Long Dawn after the Great Moonrise, cats staggered through the cold wide world, searching for a new home.",
         "decline_text": "Today isn't the time to linger on old history.",
         "chance_of_success": 30,
@@ -231,16 +231,16 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "p_l ponders one of life's little ironies with a small smile.",
         "decline_text": "The joke remains a private one.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It's at least a little funny, how elder leaves are so suited for easing the pains of the Clan's elders. The tree isn't named for that - there's an old myth about a healer asking an ancient tree for advice - but sometimes the coincidence amuses p_l.",
+                "text": "It's at least a little funny, how elder leaves are so suited for easing the pains of the Clan's elders. The tree isn't named for that - there's an old myth about a medicine cat asking an ancient tree for advice - but sometimes the coincidence amuses p_l.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["elder_leaves"],
@@ -311,7 +311,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_juniper_lorestoryhealerlocked1",
+        "patrol_id": "dst_med_newleaf_juniper_lorestorymedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -320,10 +320,10 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "As the patrol sets out, p_l remembers an old saying about searching for juniper.",
         "decline_text": "The patrol doesn't stop to listen.",
         "chance_of_success": 30,
@@ -369,7 +369,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_lungwort_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_lungwort_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -378,10 +378,10 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "Keeping a supply of lungwort is serious business, p_l instructs.",
         "decline_text": "Yes, the cats all know that, that's why they're here looking for the stuff.",
         "chance_of_success": 30,
@@ -428,7 +428,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_mallow_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_mallow_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -437,10 +437,10 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "As they lift their muzzles to try and catch mallow's sweet scent on the wind, p_l asks the patrol if they know how the herb got its name.",
         "decline_text": "Before p_l can continue, a messenger arrives from camp - p_l's presence is needed there.",
         "chance_of_success": 40,
@@ -484,7 +484,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_marigold_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_marigold_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -493,16 +493,16 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [2, 6]
+            "medicine cat cats": [2, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "Heads crane about, looking for marigold. As they work, p_l offers a story.",
         "decline_text": "Herb gathering isn't always compatible with conversation, and p_l trails off before {PRONOUN/p_l/subject} truly {VERB/p_l/start/starts}.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Once upon a time there was a plant that, unusually, loved not the midday sun's strength, but the sunset's quiet beauty. When it came time to bloom itself, it chose those colors, keeping a hint of the sunset's warmth for itself. When a healer uses marigold to treat stiff joints, that warmth is gifted to their patients.",
+                "text": "Once upon a time there was a plant that, unusually, loved not the midday sun's strength, but the sunset's quiet beauty. When it came time to bloom itself, it chose those colors, keeping a hint of the sunset's warmth for itself. When a medicine cat uses marigold to treat stiff joints, that warmth is gifted to their patients.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": ["marigold"],
@@ -542,7 +542,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_oakleaves_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_oakleaves_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -551,10 +551,10 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "Looking up at a powerful old oak tree reminds p_l of an old tale.",
         "decline_text": "Now's not the time to get distracted.",
         "chance_of_success": 30,
@@ -600,7 +600,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_ragwort_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_ragwort_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -609,11 +609,11 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "app1 is probably not <i>trying</i> to be annoying - but {PRONOUN/app1/poss} complaints about the taste of ragwort help no one, and it's just slowing the entire patrol down.",
         "decline_text": "Toughen up, honestly.",
         "chance_of_success": 30,
@@ -673,7 +673,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_raspberry_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_raspberry_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -682,11 +682,11 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
+        "pl_skill_constraint": ["LORE,1", "STORY,1", "healer,1"],
         "intro_text": "It's said that the first queen who lost her life in kitting left a blessing to save those who came after her.",
         "decline_text": "A rainshower disrupts the story, and the herb gathering is called off.",
         "chance_of_success": 30,
@@ -737,7 +737,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_tansy_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_tansy_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -746,9 +746,9 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [1, 5],
-            "healer": [1, 5]
+            "medicine cat": [1, 5]
         },
         "weight": 20,
         "intro_text": "app1 shovels tansy into {PRONOUN/app1/poss} mouth without a care in the world. p_l stops {PRONOUN/app1/object}, and tells {PRONOUN/app1/object} {PRONOUN/app1/subject} really <i>should</i> have a care.",
@@ -844,7 +844,7 @@
         ]
     },
     {
-        "patrol_id": "dst_med_newleaf_thyme_risingclanref_storylorehealerlocked1",
+        "patrol_id": "dst_med_newleaf_thyme_risingclanref_storyloremedicine catlocked1",
         "biome": ["desert"],
         "season": ["newleaf"],
         "types": ["herb_gathering"],
@@ -853,13 +853,13 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
             "normal adult":[-1, -1],
             "apprentice":[-1, -1]
         },
         "weight": 20,
-        "intro_text": "Listen to the wisdom of the sages, p_l meows. app1 doesn't just need to learn to set bones and clean wounds; being a healer is so much more than blood and bodies.",
+        "intro_text": "Listen to the wisdom of the sages, p_l meows. app1 doesn't just need to learn to set bones and clean wounds; being a medicine cat is so much more than blood and bodies.",
         "decline_text": "They're interrupted by a Clanmate who needs them. It halts the lesson, but also reinforces p_l's point.",
         "chance_of_success": 30,
         "success_outcomes": [

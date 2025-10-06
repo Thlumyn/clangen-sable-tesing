@@ -105,7 +105,7 @@
                 "weight": 20
             },
             {
-                "text": "The scent leads p_l to a nearby patch of herbs, hopefully the herbs are useful to the clans healer.",
+                "text": "The scent leads p_l to a nearby patch of herbs, hopefully the herbs are useful to the clans medicine cat.",
                 "exp": 5,
                 "weight": 15,
                 "herbs": ["tansy"]
@@ -165,7 +165,7 @@
                 "weight": 20
             },
             {
-                "text": "The tracks lead p_l to a nearby red berry bush. p_l moves on, noting it down to inform the healer.",
+                "text": "The tracks lead p_l to a nearby red berry bush. p_l moves on, noting it down to inform the medicine cat.",
                 "exp": 5,
                 "weight": 20
             },

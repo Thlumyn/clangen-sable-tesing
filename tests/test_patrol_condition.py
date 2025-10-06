@@ -54,7 +54,7 @@ class TestCondition(unittest.TestCase):
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1],
         },
         "weight": 20,

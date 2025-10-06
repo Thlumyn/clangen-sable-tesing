@@ -15,7 +15,7 @@ _directory_changed: bool = False
 default_pronouns: Dict[str, Dict[str, Dict[str, Union[str, int]]]] = {}
 
 def adjust_gender_align(genderalign) :
-    return genderalign.replace("intersex ", "").replace("molly", "female").replace("tom", "male").replace("sam", "nonbinary")
+    return genderalign.replace("intersex ", "").replace("she-cat", "female").replace("tom", "male").replace("nonbinary", "nonbinary")
 
 def get_new_pronouns(genderalign: str) -> List[Dict[str, Union[str, int]]]:
     """

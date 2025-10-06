@@ -740,7 +740,7 @@
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the healer den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why cats don't eat random bugs.",
+                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine cat den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why cats don't eat random bugs.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -961,7 +961,7 @@
                 ]
             },
             {
-                "text": "After careful consideration and consulting with the other cats, r_c recognizes them as raspberries and brings the rare berries back to the healer's den.",
+                "text": "After careful consideration and consulting with the other cats, r_c recognizes them as raspberries and brings the rare berries back to the medicine cat's den.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"],
@@ -1056,7 +1056,7 @@
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a healer problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
+                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["raspberry"]
@@ -1069,7 +1069,7 @@
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a healer problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN/app1/object}, having not identified deathberries before eating them.",
+                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN/app1/object}, having not identified deathberries before eating them.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["app1"],
@@ -1079,7 +1079,7 @@
                 }
             },
             {
-                "text": "Whatever. Identifying them is a healer problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the healer immediately starts work trying to save {PRONOUN/app1/object} from deathberry poisoning.",
+                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine cat immediately starts work trying to save {PRONOUN/app1/object} from deathberry poisoning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1170,7 +1170,7 @@
                         ]
                 },
                 {
-                    "text": "s_c is sympathetic to the poor molly in the story. To have been killed by an evil leader, her last act was the gift of the sunset... s_c doesn't know what {PRONOUN/s_c/subject} would do if {PRONOUN/s_c/subject} {VERB/s_c/were/was} in the same situation.",
+                    "text": "s_c is sympathetic to the poor she-cat in the story. To have been killed by an evil leader, her last act was the gift of the sunset... s_c doesn't know what {PRONOUN/s_c/subject} would do if {PRONOUN/s_c/subject} {VERB/s_c/were/was} in the same situation.",
                     "exp": 30,
                     "weight": 20,
                     "can_have_stat": ["not_pl_rc"],
@@ -1204,7 +1204,7 @@
                         ]
                 },
                 {
-                    "text": "s_c scoffs. Couldn't the molly have killed her evil leader, rather than being killed? {PRONOUN/s_c/subject/CAP} might respect {PRONOUN/s_c/poss} leader, but if lead_name ever was so cruel, then s_c would have no issue rebelling.",
+                    "text": "s_c scoffs. Couldn't the she-cat have killed her evil leader, rather than being killed? {PRONOUN/s_c/subject/CAP} might respect {PRONOUN/s_c/poss} leader, but if lead_name ever was so cruel, then s_c would have no issue rebelling.",
                     "exp": 30,
                     "weight": 20,
                     "can_have_stat": ["not_pl_rc"],
@@ -1271,7 +1271,7 @@
                         ]
                 },
                 {
-                    "text": "s_c promises that if c_n ever has a terrible leader while <i>{PRONOUN/s_c/subject}{VERB/s_c/'re/'s}</i> alive, {PRONOUN/s_c/subject}'ll make sure to save the Clan. Yes, that molly gave them the sunset with her death - but her Clan's evil leader lived on.",
+                    "text": "s_c promises that if c_n ever has a terrible leader while <i>{PRONOUN/s_c/subject}{VERB/s_c/'re/'s}</i> alive, {PRONOUN/s_c/subject}'ll make sure to save the Clan. Yes, that she-cat gave them the sunset with her death - but her Clan's evil leader lived on.",
                     "exp": 30,
                     "weight": 20,
                     "can_have_stat": ["not_pl_rc"],
@@ -1341,7 +1341,7 @@
             ],
             "fail_outcomes": [
                 {
-                    "text": "As p_l starts the story, r_c continues practicing {PRONOUN/r_c/poss} moves and then pounces straight into a tree trunk. Whoops. Nothing quite like a visit to the healer den to disrupt the flow of a story.",
+                    "text": "As p_l starts the story, r_c continues practicing {PRONOUN/r_c/poss} moves and then pounces straight into a tree trunk. Whoops. Nothing quite like a visit to the medicine cat den to disrupt the flow of a story.",
                     "exp": 0,
                     "weight": 20,
                     "injury": [

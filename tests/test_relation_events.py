@@ -34,7 +34,7 @@ class CanHaveKits(unittest.TestCase):
         test_clan = Clan(name="clan")
         game.clan = test_clan
         test_clan.pregnancy_data = {}
-        cat1 = Cat(gender = 'molly', moons=25, disable_random=True)
+        cat1 = Cat(gender = 'she-cat', moons=25, disable_random=True)
         cat1.no_kits = True
         cat2 = Cat(gender='tom', moons=25, disable_random=True)
 

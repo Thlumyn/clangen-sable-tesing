@@ -406,7 +406,7 @@ dev_tools = false
   warrior = 5000
   elder = 400
 
-[roles.become_healer_chances]
+[roles.become_medicine_cat_chances]
   # 1/chance that a cat will switch to mediator. rolls every moon, so keep it high.
   warrior = 5000
   apprentice = 1000
@@ -673,7 +673,7 @@ dev_tools = false
 
   [graduation.max_apprentice_age]
     # max apprentice ages. after this, they're forcibly promoted
-    "healer apprentice" = 30
+    "medicine cat apprentice" = 30
     apprentice = 25
     "mediator apprentice" = 25
 
@@ -709,7 +709,7 @@ dev_tools = false
 
   [focus.hunting]
     # Defines how much a working warrior(leader/deputy) or apprentice gathers additionally
-    # Emergency kicks in when none are available - healers and 3+ moon old kits hunt as well
+    # Emergency kicks in when none are available - medicine cats and 3+ moon old kits hunt as well
     warrior = 2
     apprentice = 1
     emergency = 1
@@ -731,7 +731,7 @@ dev_tools = false
 
     # injury chance of each warrior(leader/deputy) or medicine cat to get injured
     injury_chance_warrior = 18
-    "injury_chance_healer" = 33
+    "injury_chance_medicine_cat" = 33
 
     # the more clan which are raided the more likely it is to get injured
     chance_increase_per_clan = 3
@@ -762,7 +762,7 @@ dev_tools = false
 
     # injury chance of each warrior(leader/deputy) or medicine cat to get injured
     injury_chance_warrior = 25
-    injury_chance_healer = 35
+    injury_chance_medicine_cat = 35
 
     # illness chance of each warrior(leader/deputy) and medicine cat to get sick
     illness_chance = 35
@@ -929,8 +929,8 @@ dev_tools = false
       "kitten",
       "queen/pregnant",
       "elder",
-      "healer",
-      "healer apprentice",
+      "medicine cat",
+      "medicine cat apprentice",
       "apprentice",
       "mediator apprentice",
       "warrior",
@@ -958,8 +958,8 @@ dev_tools = false
     [clan_resources.freshkill.prey_requirement]
       leader = 3
       deputy = 3
-      healer = 2
-      "healer apprentice" = 1.5
+      "medicine cat" = 2
+      "medicine cat apprentice" = 1.5
       "mediator apprentice" = 1.5
       mediator = 2
       warrior = 3

@@ -1023,7 +1023,7 @@
                 }
             },
             {
-                "text": "r_c eventually manages to pull {PRONOUN/r_c/self} free, but {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} wheezing and injured. It's all {PRONOUN/r_c/subject} can do to find some tall grass to shelter in through the night out on the plains until a patrol finds {PRONOUN/r_c/object} the next morning and helps {PRONOUN/r_c/object} to the healer den",
+                "text": "r_c eventually manages to pull {PRONOUN/r_c/self} free, but {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} wheezing and injured. It's all {PRONOUN/r_c/subject} can do to find some tall grass to shelter in through the night out on the plains until a patrol finds {PRONOUN/r_c/object} the next morning and helps {PRONOUN/r_c/object} to the medicine cat den",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1104,7 +1104,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the healer den when {PRONOUN/app1/subject} {VERB/app1/return/returns} to camp.",
+                "text": "The apprentice wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the medicine cat den when {PRONOUN/app1/subject} {VERB/app1/return/returns} to camp.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_train_soggykitty_mad_app",
@@ -2221,7 +2221,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer cats": [-1, -1],
+            "medicine cat cats": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -2712,7 +2712,7 @@
         "decline_text": "p_l vaguely reassures app1 and urges {PRONOUN/app1/object} to hurry down to the training grounds.",
         "success_outcomes": [
                 {
-                    "text": "It's not a concern, p_l says. That's happened to some of their ancestors - in particular a young molly who died so far beyond c_n's borders the grasslands themselves had ended. But she found her way to StarClan, step by persistent step, and if it ever came to it, so would app1.",
+                    "text": "It's not a concern, p_l says. That's happened to some of their ancestors - in particular a young she-cat who died so far beyond c_n's borders the grasslands themselves had ended. But she found her way to StarClan, step by persistent step, and if it ever came to it, so would app1.",
                     "exp": 30,
                     "weight": 20,
                     "art": "pln_med_herblocation2",

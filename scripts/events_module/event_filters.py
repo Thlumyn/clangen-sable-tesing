@@ -201,13 +201,13 @@ def event_for_other_clan(Cat, ranks: list, other_clan) -> bool:
                 return False
         else:            
             if "any_app" in rank:
-                final_ranks = ["apprentice", "mediator apprentice", "healer apprentice"]
+                final_ranks = ["apprentice", "mediator apprentice", "medicine cat apprentice"]
             if "any_warrior" in rank:
                 final_ranks = ["leader", "deputy", "warrior"]
             if "any_fighter" in rank:
                 final_ranks = ["leader", "deputy", "warrior", "apprentice"]
-            if "any_healer" in rank:
-                final_ranks = ["healer", "healer apprentice"]
+            if "any_medicine cat" in rank:
+                final_ranks = ["medicine cat", "medicine cat apprentice"]
             if "any_mediator" in rank:
                 final_ranks = ["mediator", "mediator apprentice"]
             oc_cats = find_alive_cats_with_rank(
@@ -469,8 +469,8 @@ def _check_cat_gender(cat, genders: list) -> bool:
     
     equivalents = {
         "male" : ["tom", "intersex tom", "intersex trans tom", "trans tom"],
-        "female" : ["molly", "intersex molly", "intersex trans molly", "trans molly"],
-        "nonbinary" : ["sam", "intersex sam"]
+        "female" : ["she-cat", "intersex she-cat", "intersex trans she-cat", "trans she-cat"],
+        "nonbinary" : ["nonbinary", "intersex nonbinary"]
     }
 
     for g in genders:

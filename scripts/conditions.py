@@ -36,14 +36,14 @@ def amount_clanmembers_covered(all_cats, amount_per_med, clan=CatGroup.PLAYER_CL
     total_exp = total_exp * 0.003
 
     # Determine the total med number. Med cats with certain skill counts
-    # as "more" of a med cat.  Only full healer can have their skills have effect
+    # as "more" of a med cat.  Only full medicine cat can have their skills have effect
     total_med_number = len(apprentices) / 2
     for cat in full_med:
-        if cat.skills.meets_skill_requirement(SkillPath.HEALER, 3):
+        if cat.skills.meets_skill_requirement(SkillPath.healer, 3):
             total_med_number += 2
-        elif cat.skills.meets_skill_requirement(SkillPath.HEALER, 2):
+        elif cat.skills.meets_skill_requirement(SkillPath.healer, 2):
             total_med_number += 1.75
-        elif cat.skills.meets_skill_requirement(SkillPath.HEALER, 1):
+        elif cat.skills.meets_skill_requirement(SkillPath.healer, 1):
             total_med_number += 1.5
         else:
             total_med_number += 1
@@ -64,7 +64,7 @@ def medicine_cats_can_cover_clan(all_cats, amount_per_med, clan=CatGroup.PLAYER_
 
 
 def get_amount_cat_for_one_medic():
-    """Returns the amount of cats one healer can treat"""
+    """Returns the amount of cats one medicine cat can treat"""
     amount = 10
     if game.clan.game_mode == "classic":
         # just hope nobody has clans with more than 1,000,000 cats in classic

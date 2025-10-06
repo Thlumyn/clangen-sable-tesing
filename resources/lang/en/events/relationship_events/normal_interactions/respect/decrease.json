@@ -91,10 +91,10 @@
 		},
 		"main_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -102,10 +102,10 @@
         ],
 		"random_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -128,8 +128,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"healer apprentice",
-			"healer",
+			"medicine cat apprentice",
+			"medicine cat",
 			"deputy",
 			"leader"
 		],
@@ -139,8 +139,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"healer apprentice",
-			"healer",
+			"medicine cat apprentice",
+			"medicine cat",
 			"deputy",
 			"leader"
 		]
@@ -193,7 +193,7 @@
 			"warrior",
 			"deputy",
 			"leader",
-			"healer",
+			"medicine cat",
 			"mediator"
 		],
 		"random_status_constraint": [
@@ -201,8 +201,8 @@
 			"warrior",
 			"mediator apprentice",
 			"mediator",
-			"healer apprentice",
-			"healer",
+			"medicine cat apprentice",
+			"medicine cat",
 			"deputy",
 			"leader"
 		]
@@ -247,10 +247,10 @@
 		},
 		"main_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -258,10 +258,10 @@
         ],
 		"random_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -317,8 +317,8 @@
 		"random_status_constraint": [
 			"mediator apprentice",
 			"apprentice",
-			"healer apprentice",
-			"healer",
+			"medicine cat apprentice",
+			"medicine cat",
 			"warrior",
 			"mediator",
 			"deputy"
@@ -398,7 +398,7 @@
 		"main_status_constraint": [
 			"apprentice",
 			"mediator apprentice",
-			"healer apprentice"
+			"medicine cat apprentice"
 		],
 		"random_status_constraint": [
 			"kitten"
@@ -411,10 +411,10 @@
 		"id": "jel_inc_high1",
 		"intensity": "high",
 		"interactions": [
-			"m_c is jealous that r_c gets to do cool super secret healer things.",
+			"m_c is jealous that r_c gets to do cool super secret medicine cat things.",
 			"m_c wants to commune with StarClan like r_c does.",
-			"r_c refuses to tell m_c too much about {PRONOUN/r_c/poss} healer training.",
-			"m_c feels like r_c's life is easier as a healer apprentice.",
+			"r_c refuses to tell m_c too much about {PRONOUN/r_c/poss} medicine cat training.",
+			"m_c feels like r_c's life is easier as a medicine cat apprentice.",
 			"m_c tries to get free catmint from r_c, but gets snitched on instead.",
 			"m_c thinks r_c's training sounds way easier than what m_c does now.",
 			"m_c thinks it's unfair that r_c always gets to go to Gatherings."
@@ -424,7 +424,7 @@
 			"mediator apprentice"
 		],
 		"random_status_constraint": [
-			"healer apprentice"
+			"medicine cat apprentice"
 		]
 	},
 	{
@@ -454,8 +454,8 @@
 		"main_status_constraint": [
 			"mediator apprentice",
 			"apprentice",
-			"healer apprentice",
-			"healer",
+			"medicine cat apprentice",
+			"medicine cat",
 			"warrior",
 			"mediator",
 			"deputy"

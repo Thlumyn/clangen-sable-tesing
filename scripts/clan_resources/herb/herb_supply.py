@@ -386,7 +386,7 @@ class HerbSupply:
     def handle_focus(self, med_cats: list, assistants: list = None):
         """
         Handles sending med cats to gather extra herbs in accordance to Clan focus
-        :param med_cats: a list of healer objects,
+        :param med_cats: a list of medicine cat objects,
         :param assistants: a list of any non-meddies who are assisting the search for herbs
         """
 

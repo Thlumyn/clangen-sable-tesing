@@ -214,7 +214,7 @@ class ClanScreen(Screens):
             starting_height=2,
         )
         self.med_den_label = UISurfaceImageButton(
-            ui_scale(pygame.Rect(self.layout["healer den"], (105, 28))),
+            ui_scale(pygame.Rect(self.layout["medicine cat den"], (105, 28))),
             "screens.core.medicine_cat_den",
             get_button_dict(ButtonStyles.ROUNDED_RECT, (105, 28)),
             object_id=ObjectID(class_id="@buttonstyles_rounded_rect", object_id=None),

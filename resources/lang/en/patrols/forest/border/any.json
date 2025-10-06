@@ -1702,7 +1702,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [2, 6],
-            "healer cats": [-1, -1],
+            "medicine cat cats": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -2382,7 +2382,7 @@
                 ]
             },
             {
-                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's huge jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the healer den awaits.",
+                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's huge jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the medicine cat den awaits.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

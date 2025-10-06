@@ -49,7 +49,7 @@
               "any",
               "adult",
               "app",
-              "healer"
+              "medicine cat"
             ]
           }
         },
@@ -329,13 +329,13 @@
         "type": "object",
         "propertyNames": {
           "enum": [
-            "healer",
+            "medicine cat",
             "warrior",
             "leader",
             "deputy",
             "apprentice",
-            "healer apprentice",
-            "healer cats",
+            "medicine cat apprentice",
+            "medicine cat cats",
             "normal adult",
             "all apprentices"
           ]

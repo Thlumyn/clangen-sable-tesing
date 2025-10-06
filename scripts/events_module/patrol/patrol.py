@@ -190,10 +190,10 @@ class Patrol:
 
             # Combined patrol_statuses categories
             if cat.status.rank.is_any_medicine_rank():
-                if "healer cats" in self.patrol_statuses:
-                    self.patrol_statuses["healer cats"] += 1
+                if "medicine cat cats" in self.patrol_statuses:
+                    self.patrol_statuses["medicine cat cats"] += 1
                 else:
-                    self.patrol_statuses["healer cats"] = 1
+                    self.patrol_statuses["medicine cat cats"] = 1
 
             if cat.status.rank.is_any_apprentice_rank():
                 if "all apprentices" in self.patrol_statuses:
@@ -210,10 +210,10 @@ class Patrol:
                 else:
                     self.patrol_statuses["normal adult"] = 1
             if cat.status.rank == CatRank.MEDICINE_CAT:
-                if "healer adult" in self.patrol_statuses:
-                    self.patrol_statuses["healer adult"] += 1
+                if "medicine cat adult" in self.patrol_statuses:
+                    self.patrol_statuses["medicine cat adult"] += 1
                 else:
-                    self.patrol_statuses["healer adult"] = 1
+                    self.patrol_statuses["medicine cat adult"] = 1
 
             game.patrolled.append(cat.ID)
 
@@ -224,8 +224,8 @@ class Patrol:
         if CatRank.MEDICINE_CAT in self.patrol_status_list:
             index = self.patrol_status_list.index(CatRank.MEDICINE_CAT)
             self.patrol_leader = self.patrol_cats[index]
-        # If there is no healer, but there is a healer apprentice, set them as the patrol leader.
-        # This prevents warrior from being treated as healers in healer patrols.
+        # If there is no medicine cat, but there is a medicine cat apprentice, set them as the patrol leader.
+        # This prevents warrior from being treated as medicine cats in medicine cat patrols.
         elif CatRank.MEDICINE_APPRENTICE in self.patrol_status_list:
             index = self.patrol_status_list.index(CatRank.MEDICINE_APPRENTICE)
             self.patrol_leader = self.patrol_cats[index]
@@ -591,19 +591,19 @@ class Patrol:
         # This make sure general only gets hunting, border, or training patrols
         # chose fix type will make it not depending on the content amount
         if patrol_type == "general":
-            if not ("healer" in self.patrol_status_list or "healer apprentice" in self.patrol_status_list):
+            if not ("medicine cat" in self.patrol_status_list or "medicine cat apprentice" in self.patrol_status_list):
                 patrol_type = random.choice(["hunting", "border", "training"])
             else:
                 patrol_type = random.choice(["hunting", "border", "training", "med", "med", "med", "med", "med", "med"])
             
-            if ("healer" in self.patrol_status_list or "healer apprentice" in self.patrol_status_list) and get_clan_setting("patrol_lock_meds"):
+            if ("medicine cat" in self.patrol_status_list or "medicine cat apprentice" in self.patrol_status_list) and get_clan_setting("patrol_lock_meds"):
                 patrol_type = "med"
         
-        if patrol_type != "med" and "healer adult" in self.patrol_statuses:
+        if patrol_type != "med" and "medicine cat adult" in self.patrol_statuses:
             if "normal adult" in self.patrol_statuses:
-                self.patrol_statuses["normal adult"] += self.patrol_statuses["healer adult"]
+                self.patrol_statuses["normal adult"] += self.patrol_statuses["medicine cat adult"]
             else:
-                self.patrol_statuses["normal adult"] = self.patrol_statuses["healer adult"]
+                self.patrol_statuses["normal adult"] = self.patrol_statuses["medicine cat adult"]
 
         # makes sure that it grabs patrols in the correct biomes, season, with the correct number of cats
         for patrol in possible_patrols:
@@ -665,7 +665,7 @@ class Patrol:
 
             #  correct button check
             if patrol_type == "general":
-                if not ("healer" in self.patrol_status_list or "healer apprentice" in self.patrol_status_list) and not set(patrol.types).intersection({"hunting", "border", "training"}):
+                if not ("medicine cat" in self.patrol_status_list or "medicine cat apprentice" in self.patrol_status_list) and not set(patrol.types).intersection({"hunting", "border", "training"}):
                     if self.debug_patrol and self.debug_patrol == patrol.patrol_id:
                         print(
                             "DEBUG: requested patrol does not meet constraints (patrol type)"
@@ -1227,12 +1227,12 @@ This is a good starting point for writing your own patrols.
     "max_cats": 6,
     "min_max_status": {
         "apprentice": [0, 6],
-        "healer apprentice": [0, 6],
-        "healer": [0, 6],
+        "medicine cat apprentice": [0, 6],
+        "medicine cat": [0, 6],
         "deputy": [0, 6]
         "warrior": [0, 6],
         "leader": [0, 6],
-        "healer cats": [0, 6],
+        "medicine cat cats": [0, 6],
         "normal_adult": [1, 6],
         "all apprentices": [1, 6]
     }

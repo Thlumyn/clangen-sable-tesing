@@ -19,8 +19,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -110,8 +110,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -198,8 +198,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -286,8 +286,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -378,8 +378,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -394,8 +394,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "history": [
@@ -468,8 +468,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -484,8 +484,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "history": [
@@ -558,8 +558,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -574,8 +574,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "history": [
@@ -650,8 +650,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -666,8 +666,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "history": [
@@ -740,8 +740,8 @@
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"
@@ -756,8 +756,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "history": [
@@ -1541,10 +1541,10 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "warrior",
                 "mediator",
-                "healer",
+                "medicine cat",
                 "deputy"
             ],
             "backstory": [
@@ -2104,7 +2104,7 @@
                 "senior"
             ],
             "status": [
-                "healer",
+                "medicine cat",
                 "mediator",
                 "elder"
             ],
@@ -3033,8 +3033,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator"
             ],
@@ -3059,8 +3059,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was killed while trying to save o_c_n's healer.",
-                "lead_death": "{VERB/m_c/were/was} killed while trying to save o_c_n's healer"
+                "reg_death": "m_c was killed while trying to save o_c_n's medicine cat.",
+                "lead_death": "{VERB/m_c/were/was} killed while trying to save o_c_n's medicine cat"
             }
         ],
         "other_clan": {
@@ -3071,7 +3071,7 @@
             ],
             "changed": 5,
             "has_rank": [
-                "any_healer"
+                "any_medicine cat"
             ]
         }
     },
@@ -3134,8 +3134,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator"
             ],
@@ -3234,8 +3234,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator"
             ],
@@ -3530,9 +3530,9 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "warrior",
-                "healer",
+                "medicine cat",
                 "mediator",
                 "deputy"
             ],
@@ -3547,9 +3547,9 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "warrior",
-                "healer",
+                "medicine cat",
                 "mediator",
                 "deputy"
             ],
@@ -4519,7 +4519,7 @@
                 "senior"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "not_skill": [
                 "FIGHTER,2",
@@ -4625,8 +4625,8 @@
         "event_text": "m_c was killed by a o_c_n warrior while pulling an injured r_c away from battle.",
         "m_c": {
             "status": [
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "apprentice"
             ],
             "not_skill": [
@@ -4711,7 +4711,7 @@
         "event_text": "m_c caught greencough while caring for {PRONOUN/m_c/poss} patients and couldn't manage to fight it off.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "trait": [
                 "compassionate",
@@ -5856,8 +5856,8 @@
             "status": [
                 "apprentice",
                 "warrior",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "deputy"
             ]
         },
@@ -6575,8 +6575,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator"
             ],
@@ -6588,8 +6588,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator"
             ]
@@ -7198,7 +7198,7 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice"
+                "medicine cat apprentice"
             ],
             "trait": [
                 "nervous",

@@ -1303,10 +1303,10 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "warrior",
                 "mediator",
-                "healer",
+                "medicine cat",
                 "deputy",
                 "leader",
                 "elder"
@@ -5984,8 +5984,8 @@
                 "warrior",
                 "mediator",
                 "mediator apprentice",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "not_trait": [
                 "loyal",
@@ -6065,8 +6065,8 @@
                 "warrior",
                 "mediator",
                 "mediator apprentice",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "not_trait": [
                 "loyal"
@@ -6331,8 +6331,8 @@
                 "deputy",
                 "leader",
                 "warrior",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -6388,8 +6388,8 @@
                 "warrior",
                 "leader",
                 "deputy",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -6442,8 +6442,8 @@
                 "warrior",
                 "mediator",
                 "mediator apprentice",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -6630,8 +6630,8 @@
             "status": [
                 "apprentice",
                 "warrior",
-                "healer",
-                "healer apprentice",
+                "medicine cat",
+                "medicine cat apprentice",
                 "leader",
                 "deputy"
             ],
@@ -6880,7 +6880,7 @@
             "war"
         ],
         "tags": [
-            "clan:healer"
+            "clan:medicine cat"
         ],
         "frequency": 2,
         "event_text": "m_c was left badly hurt during a battle with o_c_n. Surprisingly, the o_c_n medicine cat cares for {PRONOUN/m_c/object} until {PRONOUN/m_c/poss} Clanmates get there.",
@@ -6947,7 +6947,7 @@
         "event_text": "Having heard that o_c_n was running low on vital emergency herbs, m_c gathers up some excess stock and makes the trek. However, with a mouth full of leaves, m_c takes a claw to the face before {PRONOUN/m_c/subject} can explain {PRONOUN/m_c/poss} intentions.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "injury": [
@@ -7007,7 +7007,7 @@
         "event_text": "Despite the Clan's alarmingly low stock of herbs, m_c brings what scant amount they have to o_c_n, having heard of their crisis. However, with a full mouth, m_c takes a claw to the face before {PRONOUN/m_c/subject} can explain {PRONOUN/m_c/poss} intentions.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "injury": [
@@ -7124,8 +7124,8 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer",
-                "healer apprentice",
+                "medicine cat",
+                "medicine cat apprentice",
                 "apprentice"
             ],
             "trait": [
@@ -7181,7 +7181,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "trait": [

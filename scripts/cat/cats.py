@@ -96,7 +96,7 @@ class Cat:
         CatRank.LEADER,
     ]
 
-    gender_tags = {'molly': 'F', 'tom': 'M', 'intersex': 'I'}
+    gender_tags = {'she-cat': 'F', 'tom': 'M', 'intersex': 'I'}
 
     # EX levels and ranges.
     # Ranges are inclusive to both bounds
@@ -275,7 +275,7 @@ class Cat:
             if(randint(1, constants.CONFIG['genetics_config']['intersex']) == 1) or (self.chimerapheno and xor('Y' in self.phenotype.sexgene, 'Y' in self.chimerapheno.sexgene) and randint(1, round(constants.CONFIG['genetics_config']['intersex']/4)) == 1):
                 self.phenotype.sex = "intersex"
                 if(randint(1, 25) == 1 and 'Y' in self.phenotype.sexgene):
-                    self.phenotype.sex = 'molly'
+                    self.phenotype.sex = 'she-cat'
                 elif(randint(1, 25) == 1 and 'Y' not in self.phenotype.sexgene):
                     self.phenotype.sex = 'tom'
         if self.passes != 1 and (not self.chimerapheno or xor('Y' in self.phenotype.sexgene, 'Y' in self.chimerapheno.sexgene)):
@@ -543,12 +543,12 @@ class Cat:
             trans_chance = 0
         self.genderalign = ""
         if (self.gender == 'intersex' or 
-           (self.gender == "molly" and 'Y' in self.phenotype.sexgene) or 
+           (self.gender == "she-cat" and 'Y' in self.phenotype.sexgene) or 
            (self.gender == "tom" and 'Y' not in self.phenotype.sexgene)):
             self.genderalign = 'intersex '
         if nb_chance == 1:
-            self.genderalign += "sam"
-        elif (self.gender == "molly" or (self.gender == 'intersex' and 'Y' not in self.phenotype.sexgene)):
+            self.genderalign += "nonbinary"
+        elif (self.gender == "she-cat" or (self.gender == 'intersex' and 'Y' not in self.phenotype.sexgene)):
             if trans_chance == 1:
                 self.genderalign += "trans tom"
             else:
@@ -556,18 +556,18 @@ class Cat:
                     if('Y' in self.phenotype.sexgene):
                         self.genderalign += 'tom'
                     else:
-                        self.genderalign += 'molly'
+                        self.genderalign += 'she-cat'
                 else:
                     self.genderalign += self.gender
         elif (self.gender == "tom" or (self.gender == 'intersex' and 'Y' in self.phenotype.sexgene)):
             if trans_chance == 1:
-                self.genderalign += "trans molly"
+                self.genderalign += "trans she-cat"
             else:
                 if(self.gender == 'intersex'):
                     if('Y' in self.phenotype.sexgene):
                         self.genderalign += 'tom'
                     else:
-                        self.genderalign += 'molly'
+                        self.genderalign += 'she-cat'
                 else:
                     self.genderalign += self.gender
 
@@ -649,7 +649,7 @@ class Cat:
         if ((len(self.phenotype.sexgene) > 2 and 'Y' in self.phenotype.sexgene and random() > 0.001) 
             or len(self.phenotype.sexgene) == 1
             or (self.gender == 'intersex' and random() < 0.2) 
-            or (self.gender == 'molly' and 'Y' in self.phenotype.sexgene) 
+            or (self.gender == 'she-cat' and 'Y' in self.phenotype.sexgene) 
             or (self.gender == 'tom' and 'Y' not in self.phenotype.sexgene)):
             self.get_permanent_condition('sterile', born_with=True, genetic=True)
         
@@ -785,7 +785,7 @@ class Cat:
             try:
                 self._pronouns[locale] = pronouns.get_new_pronouns(self.genderalign)
             except:
-                self._pronouns[locale] = pronouns.get_new_pronouns('sam')
+                self._pronouns[locale] = pronouns.get_new_pronouns('nonbinary')
             value = self._pronouns[locale]
         return value
 
@@ -824,11 +824,11 @@ class Cat:
     def get_genderalign_string(self):
         # translate it if it's default
         if self.genderalign.replace('intersex ', '') in (
-            "molly",
+            "she-cat",
             "tom",
-            "trans molly",
+            "trans she-cat",
             "trans tom",
-            "sam",
+            "nonbinary",
         ):
             return i18n.t(f"general.{self.genderalign}")
         # otherwise, it's custom - just return it directly

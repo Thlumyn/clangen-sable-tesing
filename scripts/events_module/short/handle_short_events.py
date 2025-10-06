@@ -575,9 +575,9 @@ class HandleShortEvents:
         if possible_genders:
             new_gender = choice(possible_genders)
             self.main_cat.genderalign = "intersex " if (self.main_cat.gender == 'intersex' or 
-           (self.main_cat.gender == "molly" and 'Y' in self.main_cat.phenotype.sexgene) or 
+           (self.main_cat.gender == "she-cat" and 'Y' in self.main_cat.phenotype.sexgene) or 
            (self.main_cat.gender == "tom" and 'Y' not in self.main_cat.phenotype.sexgene)) else "" 
-            self.main_cat.genderalign += new_gender.replace("female", "molly").replace("male", "tom").replace("nonbinary", "sam")
+            self.main_cat.genderalign += new_gender.replace("female", "she-cat").replace("male", "tom").replace("nonbinary", "nonbinary")
 
             new_pronouns = {}
             new_pronouns[i18n.config.get("locale")] = localization.get_new_pronouns(

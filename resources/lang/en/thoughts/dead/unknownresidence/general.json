@@ -80,10 +80,10 @@
 ],
          "main_status_constraint": [
             "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",

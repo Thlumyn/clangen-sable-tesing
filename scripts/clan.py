@@ -104,7 +104,7 @@ class Clan:
 
         self.med_cat_number = len(
             self.med_cat_list
-        )  # Must do this after the healer is added to the list.
+        )  # Must do this after the medicine cat is added to the list.
         self.age = 0
         self.current_season = "Newleaf"
         self.starting_season = starting_season

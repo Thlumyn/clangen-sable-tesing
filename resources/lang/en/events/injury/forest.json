@@ -91,14 +91,14 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ]
         },
         "r_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "trait": [
@@ -401,7 +401,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "relationship_status": [
@@ -422,7 +422,7 @@
         "r_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "not_skill": [

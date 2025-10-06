@@ -297,7 +297,7 @@ wheels = [
 ]
 
 [[package]]
-name = "genemod"
+name = "clangen"
 version = "0.7.9"
 source = { virtual = "." }
 dependencies = [

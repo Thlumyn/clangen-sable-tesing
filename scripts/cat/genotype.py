@@ -404,7 +404,7 @@ class Genotype:
             self.sexgene[-1] = "Y"
             self.sex = "tom"
         else:
-            self.sex = "molly"
+            self.sex = "she-cat"
 
         if self.odds['brindled_bicolour'] > 0 and randint(1, self.odds['brindled_bicolour']) == 1:
             self.brindledbi = True
@@ -1074,7 +1074,7 @@ class Genotype:
 
         if self.odds['X monosomy'] > 0 and randint(1, self.odds['X monosomy']) == 1:
             self.sexgene = [choice(mum)]
-            self.sex = "molly"
+            self.sex = "she-cat"
         elif self.odds['XXX/XXY'] > 0 and randint(1, self.odds['XXX/XXY']) == 1:
             self.sexgene = ["", "", ""]
             if randint(1, 2) == 1:
@@ -1099,7 +1099,7 @@ class Genotype:
                         self.sexgene[0] = mum[a]
                         self.sexgene[1] = mum[b]
             else:
-                self.sex = 'molly'
+                self.sex = 'she-cat'
                 if len(mum) < 3:
                     self.sexgene[0] = mum[0]
                     self.sexgene[1] = mum[1]
@@ -1124,7 +1124,7 @@ class Genotype:
                 self.sexgene = [choice(mum), pap[0]]
                 if len(pap) > 2:
                     self.sexgene[1] = choice([pap[0], pap[1]])
-                self.sex = "molly"
+                self.sex = "she-cat"
         
         
         if self.odds['brindled_bicolour'] > 0 and randint(1, self.odds['brindled_bicolour'])==1:

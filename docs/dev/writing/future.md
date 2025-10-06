@@ -121,8 +121,8 @@ Here's an example of a future event being utilized for a murder event.
                 "apprentice",
                 "warrior",
                 "deputy",
-                "healer apprentice",
-                "healer",
+                "medicine cat apprentice",
+                "medicine cat",
                 "mediator apprentice",
                 "mediator",
                 "elder"

@@ -29,9 +29,9 @@
         "one": "warrior",
         "many": "warriors"
       },
-      "healer": {
-        "one": "healer",
-        "many": "healers"
+      "medicine cat": {
+        "one": "medicine cat",
+        "many": "medicine cats"
       },
       "mediator": {
         "one": "mediator",
@@ -41,9 +41,9 @@
         "one": "apprentice",
         "many": "apprentices"
       },
-      "healer apprentice": {
-        "one": "healer apprentice",
-        "many": "healer apprentices"
+      "medicine cat apprentice": {
+        "one": "medicine cat apprentice",
+        "many": "medicine cat apprentices"
       },
       "mediator apprentice": {
         "one": "mediator apprentice",
@@ -108,18 +108,18 @@
         "one": "mate",
         "many": "mates"
       },
-      "she-cat": "molly",
-      "cat": "sam",
-      "molly": "molly",
+      "she-cat": "she-cat",
+      "cat": "nonbinary",
+      "she-cat": "she-cat",
       "tom": "tom",
-      "trans molly": "trans molly",
+      "trans she-cat": "trans she-cat",
       "trans tom": "trans tom",
-      "sam": "sam",
-      "intersex molly": "intersex molly",
+      "nonbinary": "nonbinary",
+      "intersex she-cat": "intersex she-cat",
       "intersex tom": "intersex tom",
-      "intersex trans molly": "intersex trans molly",
+      "intersex trans she-cat": "intersex trans she-cat",
       "intersex trans tom": "intersex trans tom",
-      "intersex sam": "intersex sam",
+      "intersex nonbinary": "intersex nonbinary",
       "is": "is",
       "are": "are",
       "can_work": "This cat can work",

@@ -6,8 +6,8 @@
         "Guided an injured, lost kittypet to a life-saving herb"
     ],
     "main_status_constraint": [
-        "healer",
-        "healer apprentice"
+        "medicine cat",
+        "medicine cat apprentice"
     ]
 }
 ]

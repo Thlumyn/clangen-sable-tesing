@@ -38,7 +38,7 @@ class Breed_generator:
             genoclass.sexgene[-1] = "Y"
             genoclass.sex = "tom"
         else:
-            genoclass.sex = "molly"
+            genoclass.sex = "she-cat"
 
         if(random() < 0.05):
             genoclass.specialred = 'cameo'
@@ -196,7 +196,7 @@ class Breed_generator:
             genoclass.sexgene[-1] = "Y"
             genoclass.sex = "tom"
         else:
-            genoclass.sex = "molly"
+            genoclass.sex = "she-cat"
 
         # WHITE
 
@@ -605,7 +605,7 @@ class Breed_generator:
             genoclass.sexgene[-1] = "Y"
             genoclass.sex = "tom"
         else:
-            genoclass.sex = "molly"
+            genoclass.sex = "she-cat"
         
         # DILUTE
 
@@ -1539,7 +1539,7 @@ class Breed_generator:
             genoclass.sexgene[-1] = "Y"
             genoclass.sex = "tom"
         else:
-            genoclass.sex = "molly"
+            genoclass.sex = "she-cat"
         
         # AGOUTI
 

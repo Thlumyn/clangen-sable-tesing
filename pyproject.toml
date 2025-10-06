@@ -1,5 +1,5 @@
 [project]
-name = "genemod"
+name = "clangen"
 version = "0.7.9"
 description = "Genetics mod of clangen"
 license = "MPL-2.0"

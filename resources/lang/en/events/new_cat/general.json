@@ -169,9 +169,9 @@
                 "leader",
                 "deputy",
                 "warrior",
-                "healer",
+                "medicine cat",
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator",
                 "mediator apprentice"
             ]
@@ -201,9 +201,9 @@
                 "leader",
                 "deputy",
                 "warrior",
-                "healer",
+                "medicine cat",
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator",
                 "mediator apprentice"
             ]
@@ -230,7 +230,7 @@
         "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer", "apprentice", "healer apprentice", "mediator", "mediator apprentice"
+                "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
             ]
         },"new_cat": [
             ["age:has_kits", "meeting", "rogue", "can_birth"],
@@ -331,7 +331,7 @@
         "frequency": 4,
         "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The loner decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
-            "status": ["warrior", "deputy", "leader", "healer"]
+            "status": ["warrior", "deputy", "leader", "medicine cat"]
         },
         "new_cat": [
             [
@@ -354,7 +354,7 @@
         "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The loner decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer"
+                "leader", "deputy", "warrior", "medicine cat"
             ]
         },"new_cat": [
             [
@@ -467,7 +467,7 @@
         "frequency": 4,
         "event_text": "A kittypet waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
-            "status": ["leader", "deputy", "warrior", "healer"]
+            "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
         "new_cat": [
             [
@@ -490,7 +490,7 @@
         "event_text": "A kittypet waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The kittypet decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer"
+                "leader", "deputy", "warrior", "medicine cat"
             ]
         },
         "new_cat": [
@@ -559,7 +559,7 @@
         "frequency": 4,
         "event_text": "A rogue waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The rogue decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
-            "status": ["leader", "deputy", "warrior", "healer"]
+            "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
         "new_cat": [
             [
@@ -581,7 +581,7 @@
         "frequency": 4,
         "event_text": "A rogue waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The rogue decides to take a new name and is now called n_c:0.",
         "m_c": {
-            "status": ["leader", "deputy", "warrior", "healer"]
+            "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
         "new_cat": [
             [
@@ -659,7 +659,7 @@
         "frequency": 2,
         "event_text": "m_c meets an injured warrior from o_c_n who asks to join the Clan, in exchange for healing.",
         "m_c": {
-            "status": ["healer", "leader", "warrior", "deputy", "apprentice", "healer apprentice", "mediator", "mediator apprentice"]
+            "status": ["medicine cat", "leader", "warrior", "deputy", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"]
         },
         "new_cat": [
             [
@@ -694,7 +694,7 @@
         "event_text": "A member of o_c_n defects in the war and chooses to join c_n, m_c finds {PRONOUN/n_c:0/object} waiting at the border. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} to keep {PRONOUN/n_c:0/poss} name.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer", "apprentice", "healer apprentice", "mediator", "mediator apprentice"
+                "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
             ]
         },
         "new_cat": [
@@ -722,7 +722,7 @@
         "event_text": "n_c:0, the deputy of o_c_n, has defected to c_n in the war, m_c finds {PRONOUN/n_c:0/object} at the border. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} to keep {PRONOUN/n_c:0/poss} name.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer", "apprentice", "healer apprentice", "mediator", "mediator apprentice"
+                "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
             ]
         },
         "new_cat": [
@@ -750,14 +750,14 @@
         "event_text": "n_c:0, the medicine cat of o_c_n, has defected to c_n in the war, {PRONOUN/n_c:0/subject} {VERB/n_c:0/meet/meets} m_c at the border. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} to keep {PRONOUN/n_c:0/poss} name.",
         "m_c": {
             "status": [
-                "leader", "deputy", "warrior", "healer", "apprentice", "healer apprentice", "mediator", "mediator apprentice"
+                "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
             ]
         },
         "new_cat": [
           [
             "old_name", 
             "backstory:medicine_cat", 
-            "status:healer",
+            "status:medicine cat",
             "change_clan"
           ]
         ],
@@ -765,7 +765,7 @@
             "current_rep": ["any"],
             "changed": -1,
             "has_rank": [
-                "healer"
+                "medicine cat"
             ]
         }
     },
@@ -817,9 +817,9 @@
                 "leader",
                 "deputy",
                 "warrior",
-                "healer",
+                "medicine cat",
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator",
                 "mediator apprentice"
             ]
@@ -919,7 +919,7 @@
                 "loner",
                 "meeting",
                 "exists",
-                "backstory:wandering_healer1,wandering_healer2"
+                "backstory:wandering_medicine cat1,wandering_medicine cat2"
             ]
         ],
         "relationships": [
@@ -958,19 +958,19 @@
                 "loner",
                 "meeting",
                 "exists",
-                "backstory:wandering_healer1,wandering_healer2"
+                "backstory:wandering_medicine cat1,wandering_medicine cat2"
             ],
             [
                 "loner",
                 "meeting",
                 "exists",
-                "backstory:wandering_healer1,wandering_healer2"
+                "backstory:wandering_medicine cat1,wandering_medicine cat2"
             ],
             [
                 "loner",
                 "meeting",
                 "exists",
-                "backstory:wandering_healer1,wandering_healer2"
+                "backstory:wandering_medicine cat1,wandering_medicine cat2"
             ]
         ],
         "relationships": [

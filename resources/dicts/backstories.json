@@ -23,10 +23,10 @@
             "refugee2",
             "tragedy_survivor4",
             "guided3",
-            "wandering_healer2"
+            "wandering_medicine cat2"
         ],
         "rogue_backstories": [
-            "rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2", "wandering_healer1"
+            "rogue1", "rogue2", "rogue3", "refugee4", "tragedy_survivor2", "guided2", "wandering_medicine cat1"
         ],
         "kittypet_backstories": [
             "kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1", "refugee6"
@@ -48,8 +48,8 @@
             "refugee5",
             "stolenkit1"
         ],
-        "healer_backstories": [
-            "medicine_cat", "wandering_healer1", "wandering_healer2"
+        "medicine_cat_backstories": [
+            "medicine_cat", "wandering_medicine cat1", "wandering_medicine cat2"
         ],
         "orphaned_backstories": [
             "orphaned1", "orphaned2", "orphaned3", "orphaned4", "orphaned5", "orphaned6"

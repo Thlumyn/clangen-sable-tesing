@@ -189,7 +189,7 @@
             "Glances at r_c tending to herbs and feels thankful to have chosen the path of a warrior",
             "Hates the strong stench of herbs",
             "Is swallowing a remark after being told to take something nasty",
-            "Gasps for air after leaving the healer den",
+            "Gasps for air after leaving the medicine cat den",
             "Is listening to r_c discuss the intricacies of StarClan",
             "Feels puzzled after asking r_c about StarClan",
             "Is tuning out during r_c's lecture about dangerous herbs",
@@ -207,8 +207,8 @@
             "living"
         ],
         "random_status_constraint": [
-            "healer",
-            "healer apprentice"
+            "medicine cat",
+            "medicine cat apprentice"
         ]
     },
     {
@@ -277,7 +277,7 @@
             "apprentice"
         ],
         "random_status_constraint": [
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice"
         ],
         "random_living_status": [

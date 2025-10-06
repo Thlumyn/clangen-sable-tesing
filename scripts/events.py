@@ -516,11 +516,11 @@ class Events:
                             # reset to make sure backstory makes sense
                             if "guided" in invited_cat.backstory:
                                 invited_cat.backstory = "outsider1"
-                            # if the cat is a healer, give healer rank
+                            # if the cat is a medicine cat, give medicine cat rank
                             elif (
                                 invited_cat.backstory
                                 in BACKSTORIES["backstory_categories"][
-                                    "healer_backstories"
+                                    "medicine_cat_backstories"
                                 ]
                             ):
                                 if invited_cat.age == CatAge.ADOLESCENT:
@@ -613,17 +613,17 @@ class Events:
                 )
                 cat.rank_change(CatRank.MEDIATOR)
 
-    def become_healer_events(self, cat, clan):
+    def become_medicine_cat_events(self, cat, clan):
         """Check for mediator events"""
-        if get_clan_setting("become_healer"):
+        if get_clan_setting("become_medicine cat"):
             # Note: These chances are large since it triggers every moon.
             # Checking every moon has the effect giving older cats more chances to become a mediator
-            _ = constants.CONFIG["roles"]["become_healer_chances"]
+            _ = constants.CONFIG["roles"]["become_medicine_cat_chances"]
             if cat.status.rank in _ and not int(random.random() * _[cat.status.rank]):
                 game.cur_events_list.append(
                     Single_Event(
                         event_text_adjust(
-                            Cat, i18n.t("hardcoded.event_healer_app"), main_cat=cat
+                            Cat, i18n.t("hardcoded.event_medicine_cat_app"), main_cat=cat
                         ),
                         "ceremony",
                         cat.ID,
@@ -733,7 +733,7 @@ class Events:
             game.freshkill_event_list.append(focus_text)
 
         elif get_clan_setting("herb gathering"):
-            # get healers
+            # get medicine cats
             healthy_meds = find_alive_cats_with_rank(
                 Cat,
                 ranks=[CatRank.MEDICINE_CAT, CatRank.MEDICINE_APPRENTICE],
@@ -1154,7 +1154,7 @@ class Events:
 
         # Handle Mediator Events
         self.mediator_events(cat, clan)
-        self.become_healer_events(cat, clan)
+        self.become_medicine_cat_events(cat, clan)
 
         # handle nutrition amount
         # (CARE: the cats have to be fed before this happens - should be handled in "one_moon" function)
@@ -1488,7 +1488,7 @@ class Events:
                         and i.status.group_ID == clan.group_ID
                     ]
 
-                    # check if the healer is an elder
+                    # check if the medicine cat is an elder
                     has_elder_med = [
                         c
                         for c in med_cat_list
@@ -1517,19 +1517,19 @@ class Events:
                     # assign chance to become med app depending on current med cat and traits
                     chance = constants.CONFIG["roles"]["base_medicine_app_chance"]
                     if has_elder_med == med_cat_list:
-                        # These chances apply if all the current healers are elders.
+                        # These chances apply if all the current medicine cats are elders.
                         if has_med:
                             chance = int(chance / 2.22)
                         else:
                             chance = int(chance / 13.67)
                     elif very_old_med == med_cat_list:
-                        # These chances apply is all the current healers are very old.
+                        # These chances apply is all the current medicine cats are very old.
                         if has_med:
                             chance = int(chance / 3)
                         else:
                             chance = int(chance / 14)
                     # These chances will only be reached if the
-                    # Clan has at least one non-elder healer.
+                    # Clan has at least one non-elder medicine cat.
                     elif not has_med:
                         chance = int(chance / 7.125)
                     elif has_med:
@@ -2067,7 +2067,7 @@ class Events:
 
         role_modifier = 1
         if cat.status.rank.is_any_medicine_rank():
-            # Healers just gain exp slower because reasons idk
+            # medicine cats just gain exp slower because reasons idk
             role_modifier = 0.6
 
         exp = random.choice(

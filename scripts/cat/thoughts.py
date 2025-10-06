@@ -290,7 +290,7 @@ class Thoughts:
     @staticmethod
     def load_thoughts(main_cat, other_cat, game_mode, biome, season, camp, ageup=False):
         rank = main_cat.status.rank
-        rank = rank.replace("healer", "medicine cat").replace(" ", "_")
+        rank = rank.replace("medicine cat", "medicine cat").replace(" ", "_")
 
 
         if ageup and main_cat.dead:

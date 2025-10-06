@@ -57,6 +57,10 @@ class Status:
         for entry in self.group_history:
             self._convert_old_group_saves(entry)
             # converting strs to enums
+            if entry["rank"] == "healer":
+                entry["rank"] = "medicine cat"
+            if entry["rank"] == "healer apprentice":
+                entry["rank"] = "medicine cat apprentice"
             entry["rank"] = CatRank(entry["rank"])
 
         for entry in self.standing_history:
@@ -112,7 +116,7 @@ class Status:
                     rank = self.get_rank_from_age(age)
                 else:  # god this should never happen, but I'm paranoid
                     rank = CatRank.WARRIOR
-            rank = CatRank(rank.replace("medicine cat", "healer"))
+            rank = CatRank(rank.replace("medicine cat", "medicine cat"))
         if social and not isinstance(social, CatSocial):
             if social.casefold() == "former clancat":
                 social = CatSocial.CLANCAT

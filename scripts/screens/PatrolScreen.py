@@ -518,14 +518,14 @@ class PatrolScreen(Screens):
             self.elements["herb"].enable()
             self.elements["info"].kill()  # clearing the text before displaying new text
 
-            has_healer = any(
+            has_medicine_cat = any(
                 (cat.status.rank.is_any_medicine_rank() for cat in self.current_patrol)) and self.current_patrol
-            if not has_healer:
+            if not has_medicine_cat:
                 self.elements["herb"].disable()
                 if self.patrol_type == "med":
                     self.patrol_type = "general"
             if self.patrol_type == "general":
-                if has_healer and get_clan_setting("patrol_lock_meds"):
+                if has_medicine_cat and get_clan_setting("patrol_lock_meds"):
                     text = "screens.patrol.herb_gathering"
                     self.patrol_type = "med"
                 text = "random patrol type"

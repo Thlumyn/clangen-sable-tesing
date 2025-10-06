@@ -1149,7 +1149,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "While on the hunt, r_c tumbles right down a steep slope while {PRONOUN/r_c/poss} attention is elsewhere. Bruised and sore, r_c has to report to the healer den when {PRONOUN/r_c/subject} {VERB/r_c/return/returns} to camp.",
+                "text": "While on the hunt, r_c tumbles right down a steep slope while {PRONOUN/r_c/poss} attention is elsewhere. Bruised and sore, r_c has to report to the medicine cat den when {PRONOUN/r_c/subject} {VERB/r_c/return/returns} to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3004,7 +3004,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [2, 6],
-            "healer cats": [-1, -1],
+            "medicine cat cats": [-1, -1],
             "normal adult": [-1, -1]
         },
         "weight": 20,

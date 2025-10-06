@@ -84,10 +84,10 @@
         "main_status_constraint": [
             "apprentice",
             "mediator apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "warrior", 
             "mediator", 
-            "healer", 
+            "medicine cat", 
             "deputy", 
             "leader", 
             "elder"
@@ -102,10 +102,10 @@
         "main_status_constraint": [
             "apprentice",
             "mediator apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "warrior", 
             "mediator", 
-            "healer", 
+            "medicine cat", 
             "deputy", 
             "leader", 
             "elder"
@@ -132,10 +132,10 @@
         "main_status_constraint": [
             "apprentice",
             "mediator apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "warrior", 
             "mediator", 
-            "healer", 
+            "medicine cat", 
             "deputy", 
             "leader", 
             "elder"
@@ -152,10 +152,10 @@
         "main_status_constraint": [
             "apprentice",
             "mediator apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "warrior", 
             "mediator", 
-            "healer", 
+            "medicine cat", 
             "deputy", 
             "leader", 
             "elder"
@@ -172,7 +172,7 @@
         "main_status_constraint": [
             "warrior", 
             "mediator", 
-            "healer", 
+            "medicine cat", 
             "deputy", 
             "leader", 
             "elder"

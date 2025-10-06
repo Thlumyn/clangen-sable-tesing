@@ -121,10 +121,10 @@
 		],
 		"random_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -199,10 +199,10 @@
 		},
 		"main_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -210,10 +210,10 @@
         ],
 		"random_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -243,10 +243,10 @@
 		],
 		"random_status_constraint": [
 	    "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -271,10 +271,10 @@
 		],
 		"main_status_constraint": [
             "apprentice",
-            "healer apprentice",
+            "medicine cat apprentice",
             "mediator apprentice",
             "warrior",
-            "healer",
+            "medicine cat",
             "mediator",
             "deputy",
             "leader",
@@ -303,8 +303,8 @@
 			"vengeful"
 		],
 		"random_status_constraint": [
-			"healer",
-			"healer apprentice"
+			"medicine cat",
+			"medicine cat apprentice"
 		]
 	}
 ]

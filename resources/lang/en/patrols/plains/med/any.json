@@ -10,7 +10,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -65,7 +65,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
         "intro_text": "While on a trip to gather herbs, p_l slows to a stop. The random patch of grass {PRONOUN/p_l/subject} {VERB/p_l/linger/lingers} on doesn't look important, but {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} suddenly overcome by an otherworldly feeling of clair_list_emotional/p_l. What could this mean?",
@@ -105,9 +105,9 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -174,8 +174,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -215,8 +215,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -249,8 +249,8 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer": [1, 6],
-            "healer cats": [1, 6]
+            "medicine cat": [1, 6],
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
         "intro_text": "p_l leads a patrol out to explore c_n's territory and bring back any herbs they can spot. {PRONOUN/p_l/poss/CAP} whiskers want to twitch with every raindrop that hits them, but the Clan doesn't have the luxury to sit inside away from the weather.",
@@ -273,7 +273,7 @@
                 ]
             },
             {
-                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off. A rather motley assortment of herbs refreshes the healer den's stocks.",
+                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off. A rather motley assortment of herbs refreshes the medicine cat den's stocks.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -332,7 +332,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -372,9 +372,9 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -440,7 +440,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -449,7 +449,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l <i>mrrp</i>s with laughter, watching r_c parade around with such a big bundle of cobwebs that {PRONOUN/r_c/subject} {VERB/r_c/keep/keeps} colliding with things in {PRONOUN/r_c/poss} path {PRONOUN/r_c/subject} can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased healer that leads them back to camp.",
+                "text": "p_l <i>mrrp</i>s with laughter, watching r_c parade around with such a big bundle of cobwebs that {PRONOUN/r_c/subject} {VERB/r_c/keep/keeps} colliding with things in {PRONOUN/r_c/poss} path {PRONOUN/r_c/subject} can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine cat that leads them back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["cobwebs"],
@@ -464,7 +464,7 @@
                 ]
             },
             {
-                "text": "The patrol brings back a truly massive haul and return in good humor, laughing as they set down their sticks of spun-up webbing in the healer den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
+                "text": "The patrol brings back a truly massive haul and return in good humor, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "cobwebs"],
@@ -523,7 +523,7 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -532,7 +532,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked healer den.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked medicine cat den.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"]
@@ -570,9 +570,9 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -581,7 +581,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't know why horsetail plants lack leaves, but {PRONOUN/p_l/subject} {VERB/p_l/encourage/encourages} app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked healer den.",
+                "text": "p_l doesn't know why horsetail plants lack leaves, but {PRONOUN/p_l/subject} {VERB/p_l/encourage/encourages} app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked medicine cat den.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -596,7 +596,7 @@
                 ]
             },
             {
-                "text": "By snapping off the thick horsetail stem near the base of the plant, p_l is able to drag an entire big, long shoot back to camp. app1 processes it down further into small stem sections that are easily stored, making a neat pile in the healer den with them.",
+                "text": "By snapping off the thick horsetail stem near the base of the plant, p_l is able to drag an entire big, long shoot back to camp. app1 processes it down further into small stem sections that are easily stored, making a neat pile in the medicine cat den with them.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "horsetail"],
@@ -654,7 +654,7 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
@@ -663,7 +663,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked healer den. Having other cats to help {PRONOUN/p_l/object} makes p_l's patrol an easy afternoon's work.",
+                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also</i> having a crucial herbal use in staunching bloodflow, horsetail is a welcome sight in any well-stocked medicine cat den. Having other cats to help {PRONOUN/p_l/object} makes p_l's patrol an easy afternoon's work.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["horsetail"],
@@ -736,10 +736,10 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-            "healer cats": [1, 6]
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the healer den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather some more.",
+        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather some more.",
         "decline_text": "A cat requires {PRONOUN/p_l/poss} attention just as {PRONOUN/p_l/subject} {VERB/p_l/go/goes} to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -769,13 +769,13 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the healer den is getting old. Calling over app1, {PRONOUN/p_l/subject} {VERB/p_l/set/sets} out to gather more.",
+        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. Calling over app1, {PRONOUN/p_l/subject} {VERB/p_l/set/sets} out to gather more.",
         "decline_text": "A cat requires {PRONOUN/p_l/poss} attention just as {PRONOUN/p_l/subject} {VERB/p_l/go/goes} to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -822,12 +822,12 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "healer": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the healer den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather some more, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} a warrior with {PRONOUN/p_l/object} to help.",
+        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather some more, and {PRONOUN/p_l/subject} {VERB/p_l/take/takes} a warrior with {PRONOUN/p_l/object} to help.",
         "decline_text": "A cat requires {PRONOUN/p_l/object} attention just as {PRONOUN/p_l/subject} {VERB/p_l/go/goes} to leave. Moss will have to wait.",
         "chance_of_success": 70,
         "success_outcomes": [
@@ -874,12 +874,12 @@
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {
-            "healer": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the healer den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather more so {PRONOUN/p_l/subject} {VERB/p_l/call/calls} over some warriors to help {PRONOUN/p_l/object}.",
+        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} to go and gather more so {PRONOUN/p_l/subject} {VERB/p_l/call/calls} over some warriors to help {PRONOUN/p_l/object}.",
         "decline_text": "A cat requires {PRONOUN/p_l/poss} attention just as {PRONOUN/p_l/subject} {VERB/p_l/go/goes} to leave. Moss will have to wait.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -927,13 +927,13 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of {PRONOUN/p_l/poss} grimmer jobs as a healer - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN/p_l/subject/CAP} {VERB/p_l/bring/brings} along app1 as {PRONOUN/p_l/poss} assistant for this trip, and the two cats head out in relative silence.",
+        "intro_text": "p_l has to attend to one of {PRONOUN/p_l/poss} grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN/p_l/subject/CAP} {VERB/p_l/bring/brings} along app1 as {PRONOUN/p_l/poss} assistant for this trip, and the two cats head out in relative silence.",
         "decline_text": "Just before the two can leave, a cat calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -978,11 +978,11 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of {PRONOUN/p_l/poss} grimmer jobs as a healer - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'re/'s} bringing along r_c as {PRONOUN/p_l/poss} assistant for this trip, and the two cats head out in relative silence.",
+        "intro_text": "p_l has to attend to one of {PRONOUN/p_l/poss} grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'re/'s} bringing along r_c as {PRONOUN/p_l/poss} assistant for this trip, and the two cats head out in relative silence.",
         "decline_text": "Just before the two can leave, a cat calls for their attention.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -1028,7 +1028,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
+            "medicine cat": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
@@ -1095,8 +1095,8 @@
         "min_cats": 2,
         "max_cats": 2,
         "min_max_status": {
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [2, 2]
         },
         "weight": 20,
@@ -1163,7 +1163,7 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
+            "medicine cat": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1187,7 +1187,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one healer to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["random_herbs"],
@@ -1243,8 +1243,8 @@
         "min_cats": 3,
         "max_cats": 3,
         "min_max_status": {
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [3, 3]
         },
         "weight": 20,
@@ -1310,8 +1310,8 @@
         "min_cats": 4,
         "max_cats": 4,
         "min_max_status": {
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [4, 4]
         },
         "weight": 20,
@@ -1377,8 +1377,8 @@
         "min_cats": 5,
         "max_cats": 5,
         "min_max_status": {
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [5, 5]
         },
         "weight": 20,
@@ -1444,8 +1444,8 @@
         "min_cats": 6,
         "max_cats": 6,
         "min_max_status": {
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [6, 6]
         },
         "weight": 20,
@@ -1512,8 +1512,8 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [3, 3]
         },
         "weight": 20,
@@ -1554,7 +1554,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1580,8 +1580,8 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [4, 4]
         },
         "weight": 20,
@@ -1622,7 +1622,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1648,8 +1648,8 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [5, 5]
         },
         "weight": 20,
@@ -1690,7 +1690,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1716,9 +1716,9 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6]
+            "medicine cat": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
         "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them, plants don't run away!",
@@ -1758,7 +1758,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the healer den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
+                "text": "p_l is disgusted with the general disdain {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} from the other apprentices, and how overconfident it is to tell {PRONOUN/p_l/object} herb gathering is easy when the patrol hasn't found <i>any</i> cobwebs! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN/p_l/subject} {VERB/p_l/have/has} been.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1784,8 +1784,8 @@
         "max_cats": 2,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [2, 2]
         },
         "weight": 20,
@@ -1852,8 +1852,8 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [3, 3]
         },
         "weight": 20,
@@ -1920,8 +1920,8 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [4, 4]
         },
         "weight": 20,
@@ -1988,12 +1988,12 @@
         "max_cats": 3,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The apprentices are sent off into the territory to gather moss for the healer den.",
+        "intro_text": "The apprentices are sent off into the territory to gather moss for the medicine cat den.",
         "decline_text": "They're called back to camp, needed for other chores.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2056,8 +2056,8 @@
         "max_cats": 4,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [4, 4]
         },
         "weight": 20,
@@ -2124,8 +2124,8 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [5, 5]
         },
         "weight": 20,
@@ -2192,8 +2192,8 @@
         "max_cats": 5,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [5, 5]
         },
         "weight": 20,
@@ -2260,8 +2260,8 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [6, 6]
         },
         "weight": 20,
@@ -2328,8 +2328,8 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [1, 6],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6]
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6]
         },
         "weight": 20,
         "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",

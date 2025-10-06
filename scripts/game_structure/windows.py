@@ -1764,7 +1764,8 @@ class ChangelogPopup(UIWindow):
                     # So, to work around that, just add a little "link" at the end
                     info[
                         2
-                    ] += f" <a href='https://github.com/Chinch-Bug/clangen-genemod/pull/{pr_number.group(1)}'>(link)</a>"
+                    ] += f" <a href='#{pr_number.group(1)}'>(link)</a>" 
+                    #] += f" <a href='https://github.com/Chinch-Bug/clangen-genemod/pull/{pr_number.group(1)}'>(link)</a>"
 
                 # Format: DATE- \n PR Title (link)
                 file_cont += f"<b>{info[1]}</b>\n- {info[2]}\n"
@@ -2360,7 +2361,7 @@ class ChangeCatClan(UIWindow):
                     if (
                         self.the_cat.backstory
                         in BACKSTORIES["backstory_categories"][
-                            "healer_backstories"
+                            "medicine_cat_backstories"
                         ]
                     ):
                         if self.the_cat.age == CatAge.ADOLESCENT:

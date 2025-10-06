@@ -644,7 +644,7 @@ def create_new_cat_block(
     elif rank == CatRank.MEDICINE_CAT and cat_social == CatSocial.CLANCAT:
         chosen_backstory = choice(["medicine_cat", "disgraced1"])
     elif rank == CatRank.MEDICINE_CAT:
-        chosen_backstory = choice(["wandering_healer1", "wandering_healer2"])
+        chosen_backstory = choice(["wandering_medicine cat1", "wandering_medicine cat2"])
     else:
         if cat_social == CatSocial.CLANCAT:
             x = "former_clancat"
@@ -2515,7 +2515,7 @@ def ongoing_event_text_adjust(Cat, text, clan=None, other_clan_name=None):
 
     text = text.replace("c_n", clan_name + "Clan")
 
-    text = text.replace("medicine cat", "healer").replace("medicine den", "healer den")
+    text = text.replace("medicine cat", "medicine cat").replace("medicine den", "medicine cat den")
 
     return text
 
@@ -2753,7 +2753,7 @@ def event_text_adjust(
                 "given_herb", i18n.t(f"conditions.herbs.{chosen_herb}", count=2)
             )
 
-    text = text.replace("medicine cat", "healer").replace("medicine den", "healer den")
+    text = text.replace("medicine cat", "medicine cat").replace("medicine den", "medicine cat den")
 
     return text
 
@@ -2792,7 +2792,7 @@ def leader_ceremony_text_adjust(
     clan = leader.status.fetch_clan_object()
     text = text.replace("c_n", str(clan.displayname) + "Clan")
 
-    text = text.replace("medicine cat", "healer").replace("medicine den", "healer den")
+    text = text.replace("medicine cat", "medicine cat").replace("medicine den", "medicine cat den")
 
     return text
 
@@ -2896,7 +2896,7 @@ def ceremony_text_adjust(
 
     adjust_text = process_text(adjust_text, cat_dict)
 
-    adjust_text = adjust_text.replace("medicine cat", "healer").replace("medicine den", "healer den")
+    adjust_text = adjust_text.replace("medicine cat", "medicine cat").replace("medicine den", "medicine cat den")
 
     return adjust_text, random_living_parent, random_dead_parent
 

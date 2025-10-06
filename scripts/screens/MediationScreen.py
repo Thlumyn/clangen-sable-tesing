@@ -474,7 +474,7 @@ class MediationScreen(Screens):
         )
 
         # Gender
-        if cat.genderalign == "molly":
+        if cat.genderalign == "she-cat":
             gender_icon = image_cache.load_image(
                 "resources/images/female_big.png"
             ).convert_alpha()
@@ -482,7 +482,7 @@ class MediationScreen(Screens):
             gender_icon = image_cache.load_image(
                 "resources/images/male_big.png"
             ).convert_alpha()
-        elif cat.genderalign == "trans molly":
+        elif cat.genderalign == "trans she-cat":
             gender_icon = image_cache.load_image(
                 "resources/images/transfem_big.png"
             ).convert_alpha()
@@ -580,14 +580,14 @@ class MediationScreen(Screens):
         if related and other_cat and not mates:
             relation = ""
             if cat.is_uncle_aunt(other_cat):
-                if other_cat.genderalign in ("molly", "trans molly"):
+                if other_cat.genderalign in ("she-cat", "trans she-cat"):
                     relation = "general.niece"
                 elif other_cat.genderalign in ("tom", "trans tom"):
                     relation = "general.nephew"
                 else:
                     relation = "general.siblings_child"
             elif other_cat.is_uncle_aunt(cat):
-                if other_cat.genderalign in ("molly", "trans molly"):
+                if other_cat.genderalign in ("she-cat", "trans she-cat"):
                     relation = "general.aunt"
                 elif other_cat.genderalign in ("tom", "trans tom"):
                     relation = "general.uncle"

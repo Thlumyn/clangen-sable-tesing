@@ -1085,7 +1085,7 @@
         },
         "r_c": {
             "skill": [
-                "HEALER,2"
+                "healer,2"
             ]
         },
         "injury": [
@@ -1552,8 +1552,8 @@
                 "elder",
                 "mediator apprentice",
                 "mediator",
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "injury": [
@@ -2441,7 +2441,7 @@
                 "leader"
             ],
             "skill": [
-                "HEALER,2"
+                "healer,2"
             ]
         },
         "r_c": {
@@ -3042,7 +3042,7 @@
             "war"
         ],
         "tags": [
-            "clan:healer"
+            "clan:medicine cat"
         ],
         "frequency": 4,
         "event_text": "It's hard for border patrols to actually encounter each other in the desert. So o_c_n deliberately waits for a c_n patrol, each trading escalating insults until the situation explodes into violence. med_name patches up m_c and r_c afterwards, as the camp seethes with anger.",
@@ -3294,12 +3294,12 @@
         "weight": 20,
         "event_text": "m_c dashes off from {PRONOUN/m_c/poss} mentor and tumbles face first into a cactus! Thankfully r_c is able to remove the spines with little difficulty.",
         "m_c": {
-            "status": ["apprentice", "mediator apprentice", "healer apprentice"],
+            "status": ["apprentice", "mediator apprentice", "medicine cat apprentice"],
             "trait": ["adventurous", "arrogant", "bold", "childish", "confident", "daring", "oblivious", "playful", "rebellious", "shameless", "troublesome"],
             "relationship_status": ["app/mentor"]
         },
         "r_c": {
-            "status": ["warrior", "mediator", "healer"]
+            "status": ["warrior", "mediator", "medicine cat"]
         },
         "injury": [
             {
@@ -4469,8 +4469,8 @@
                 "deputy",
                 "leader",
                 "warrior",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -4519,8 +4519,8 @@
                 "warrior",
                 "leader",
                 "deputy",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -4570,8 +4570,8 @@
                 "warrior",
                 "mediator",
                 "mediator apprentice",
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "injury": [
@@ -4870,8 +4870,8 @@
             "status": [
                 "apprentice",
                 "warrior",
-                "healer",
-                "healer apprentice",
+                "medicine cat",
+                "medicine cat apprentice",
                 "leader",
                 "deputy"
             ],

@@ -1967,7 +1967,7 @@
                 ]
             },
             {
-                "text": "p_l listens to both sides, then makes a careful judgement. It keeps no one happy, the mark of an excellent compromise.",
+                "text": "p_l listens to both sides, then makes a careful judgment. It keeps no one happy, the mark of an excellent compromise.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -2294,7 +2294,7 @@
                 ]
             },
             {
-                "text": "p_l listens to both sides, then makes a careful judgement. It keeps no one happy, the mark of an excellent compromise.",
+                "text": "p_l listens to both sides, then makes a careful judgment. It keeps no one happy, the mark of an excellent compromise.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -2388,7 +2388,7 @@
                 ]
             },
             {
-                "text": "Making a cold, factual judgement, s_c logically lays out which side {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} on, and why, convincing the rest of the patrol.",
+                "text": "Making a cold, factual judgment, s_c logically lays out which side {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} on, and why, convincing the rest of the patrol.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2639,7 +2639,7 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "It's alright, app1 assures app2. It wasn't on purpose - maybe {PRONOUN/app2/subject} could head to the healer after this. There are heaps of herbs to help app2 sleep, and this totally explains why {PRONOUN/app2/subject}{VERB/app2/'ve/'s} been yawning so much during training.",
+                "text": "It's alright, app1 assures app2. It wasn't on purpose - maybe {PRONOUN/app2/subject} could head to the medicine cat after this. There are heaps of herbs to help app2 sleep, and this totally explains why {PRONOUN/app2/subject}{VERB/app2/'ve/'s} been yawning so much during training.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2699,7 +2699,7 @@
         },
         "weight": 5,
         "intro_text": "While app1 and p_l are out walking, app1 seems preoccupied. When p_l brings their patrol to a halt and asks what's wrong, {PRONOUN/app1/subject} {VERB/app1/reveal/reveals} {PRONOUN/app1/subject}{VERB/app1/'ve/'s} been having a hard time sleeping. {PRONOUN/app1/poss/CAP} dreams are filled with shadows and... images.",
-        "decline_text": "This is beyond p_l's sphere of teachable subjects, but {PRONOUN/p_l/subject} {VERB/p_l/promise/promises} that there'll be another cat back at camp who can help. app1 should probably talk to a healer.",
+        "decline_text": "This is beyond p_l's sphere of teachable subjects, but {PRONOUN/p_l/subject} {VERB/p_l/promise/promises} that there'll be another cat back at camp who can help. app1 should probably talk to a medicine cat.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
@@ -3325,7 +3325,7 @@
                 "text": "Just as they're starting, p_l puts a paw wrong and goes down hard. s_c rushes in and checks {PRONOUN/p_l/object} over, firmly instructing p_l to stay on the sidelines. p_l sits the rest of the session out and avoids further injury, yowling encouragement and instructions to {PRONOUN/p_l/poss} Clanmates.",
                 "exp": 20,
                 "weight": 20,
-                "stat_skill": ["HEALER,1"],
+                "stat_skill": ["healer,1"],
                 "can_have_stat": ["r_c"],
                 "injury": [
                     {
@@ -8222,7 +8222,7 @@
         "pl_skill_constraint": ["LORE,1"],
         "success_outcomes": [
             {
-                "text": "Casanova was a kittypet, with a long, beautiful coat always combed just-so by his Twolegs, charming, sly, and full of love and attention for any molly who'd stand still long enough to accept it. Generations ago, he fathered litters across half a dozen dens, full of promises of help and support before he moved on to the next molly without a backward glance. It's not a nice tale, but it's one important to remember.",
+                "text": "Casanova was a kittypet, with a long, beautiful coat always combed just-so by his Twolegs, charming, sly, and full of love and attention for any she-cat who'd stand still long enough to accept it. Generations ago, he fathered litters across half a dozen dens, full of promises of help and support before he moved on to the next she-cat without a backward glance. It's not a nice tale, but it's one important to remember.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -8236,7 +8236,7 @@
                 ]
             },
             {
-                "text": "Ah, Casanova, famous for his charm in trying to get the attention of a molly he liked and, of course, for his vanishing act afterwards. What p_l tries to emphasize about the history lesson isn't about the infamous cad, but rather that the Clans took care of the bereft mothers he dallied with and the litters he fathered - a lesson of how the strength of the Clan supported nursing queens and their newborn kits, who would have otherwise been left to fend for themselves.",
+                "text": "Ah, Casanova, famous for his charm in trying to get the attention of a she-cat he liked and, of course, for his vanishing act afterwards. What p_l tries to emphasize about the history lesson isn't about the infamous cad, but rather that the Clans took care of the bereft mothers he dallied with and the litters he fathered - a lesson of how the strength of the Clan supported nursing queens and their newborn kits, who would have otherwise been left to fend for themselves.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -8592,7 +8592,7 @@
         ]
     },
     {
-        "patrol_id": "gen_train_healerlocked1",
+        "patrol_id": "gen_train_medicine catlocked1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["training"],
@@ -8608,7 +8608,7 @@
         "intro_text": "While practicing {PRONOUN/app1/poss} pounce, app1 goes down hard, falling in exactly the wrong way. {PRONOUN/app1/subject/CAP} {VERB/app1/scramble/scrambles} up with a yelp, one paw held off the ground.",
         "decline_text": "It's only a couple minutes before {PRONOUN/app1/subject}{VERB/app1/'re/'s} bouncing around again - apprentices are made of cotton-fluff.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["HEALER,1"],
+        "pl_skill_constraint": ["healer,1"],
         "success_outcomes": [
             {
                 "text": "Carefully, p_l has app1 sit back down, where p_l grooms the injured paw all over. By the time {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} finished {PRONOUN/p_l/poss} assessment, app1 is already feeling a lot better - it was just a jolt of pain, nothing more, and training can continue unimpeded.",
@@ -9471,7 +9471,7 @@
         },
         "weight": 5,
         "intro_text": "It is almost dawn when the deputy rouses app1 for {PRONOUN/app1/poss} assessment. {PRONOUN/app1/subject/CAP} {VERB/app1/are/is} meant to find p_l posing as an enemy warrior somewhere on the territory and handle the situation. p_l could be anywhere!",
-        "decline_text": "app1 sheepishly looks up at the deputy, a guilty gleam in {PRONOUN/app1/poss} eyes, and says that {PRONOUN/app1/subject} {VERB/app1/have/has} a stomachache. {PRONOUN/app1/subject/CAP} hurriedly {VERB/app1/run/runs} to the healerwondering how {PRONOUN/app1/subject} {VERB/app1/are/is} going to get away with this fake illness at sunhigh when the Clan shares tongues.",
+        "decline_text": "app1 sheepishly looks up at the deputy, a guilty gleam in {PRONOUN/app1/poss} eyes, and says that {PRONOUN/app1/subject} {VERB/app1/have/has} a stomachache. {PRONOUN/app1/subject/CAP} hurriedly {VERB/app1/run/runs} to the medicine catwondering how {PRONOUN/app1/subject} {VERB/app1/are/is} going to get away with this fake illness at sunhigh when the Clan shares tongues.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -9569,7 +9569,7 @@
                 ]
             },
             {
-                "text": "Why did it have to be this assessment? app1 struggles to make a decision. What if {PRONOUN/app1/subject} cannot find p_l before the time limit? Who decided there should be a time limit? Maybe app1 would be better off as a healer... {PRONOUN/app1/poss/CAP} mentor's arrival startles {PRONOUN/app1/object}, and app1 realizes {PRONOUN/app1/subject} wasted too much time second-guessing {PRONOUN/app1/self}.",
+                "text": "Why did it have to be this assessment? app1 struggles to make a decision. What if {PRONOUN/app1/subject} cannot find p_l before the time limit? Who decided there should be a time limit? Maybe app1 would be better off as a medicine cat... {PRONOUN/app1/poss/CAP} mentor's arrival startles {PRONOUN/app1/object}, and app1 realizes {PRONOUN/app1/subject} wasted too much time second-guessing {PRONOUN/app1/self}.",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": ["app1"],
@@ -9860,7 +9860,7 @@
                 "weight": 20
             },
 	    {
-                "text": "Misjudging {PRONOUN/app1/poss} landing, app1 hit the ground awkwardly, {PRONOUN/app1/poss} paw twisting beneath {PRONOUN/app1/object}. Not only is it embarrassing to explain to the healer, but it happened right in front of app2.",
+                "text": "Misjudging {PRONOUN/app1/poss} landing, app1 hit the ground awkwardly, {PRONOUN/app1/poss} paw twisting beneath {PRONOUN/app1/object}. Not only is it embarrassing to explain to the medicine cat, but it happened right in front of app2.",
                 "exp": 0,
                 "relationships": [
                     {

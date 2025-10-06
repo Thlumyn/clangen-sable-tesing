@@ -391,7 +391,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol approaches the cat and sees some signs of life. The patrol, after some hesitation, decides to bring the cat back to camp so that they can be treated by the healer. The cat thanks them profusely and promises to repay them by joining the Clan and being the best warrior {PRONOUN/n_c:0/subject} can.",
+                "text": "The patrol approaches the cat and sees some signs of life. The patrol, after some hesitation, decides to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks them profusely and promises to repay them by joining the Clan and being the best warrior {PRONOUN/n_c:0/subject} can.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -460,7 +460,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l approaches the cat and sees some signs of life. After some hesitation, {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} to bring the cat back to camp so that they can be treated by the healer. The cat thanks {PRONOUN/p_l/object} profusely and promises to repay {PRONOUN/p_l/object} by joining the Clan and being the best warrior {PRONOUN/n_c:0/subject} can.",
+                "text": "p_l approaches the cat and sees some signs of life. After some hesitation, {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks {PRONOUN/p_l/object} profusely and promises to repay {PRONOUN/p_l/object} by joining the Clan and being the best warrior {PRONOUN/n_c:0/subject} can.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -1001,7 +1001,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_healer_hostile1",
+        "patrol_id": "gen_bord_medicine_cat_hostile1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -1016,11 +1016,11 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new healer is welcomed into the Clan.",
+                "text": "The new medicine cat is welcomed into the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:healer", "loner"]
+                    ["status:medicine cat", "loner"]
                 ],
                 "relationships": [
                     {
@@ -1033,11 +1033,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new healer is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["status:healer", "age:has_kits", "loner"],
+                    ["status:medicine cat", "age:has_kits", "loner"],
                     ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1084,7 +1084,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, the patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
+                "text": "medicine cat or not, the patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -1104,7 +1104,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_healer_hostile2",
+        "patrol_id": "gen_bord_medicine_cat_hostile2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -1119,11 +1119,11 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new healer is welcomed into the Clan.",
+                "text": "The new medicine cat is welcomed into the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:healer", "loner"]
+                    ["status:medicine cat", "loner"]
                 ],
                 "relationships": [
                     {
@@ -1136,11 +1136,11 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new healer is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
+                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN/n_c:0/poss} litter of kits.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["status:healer", "age:has_kits", "loner"],
+                    ["status:medicine cat", "age:has_kits", "loner"],
                     ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -1187,7 +1187,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, p_l tells the cat to leave or feel {PRONOUN/p_l/poss} claws. The loner seems to choose life and quickly takes off.",
+                "text": "medicine cat or not, p_l tells the cat to leave or feel {PRONOUN/p_l/poss} claws. The loner seems to choose life and quickly takes off.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -1593,7 +1593,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1674,7 +1674,7 @@
         "max_cats": 6,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer cats": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -1765,8 +1765,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
@@ -1848,8 +1848,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat": [1, 6],
+            "medicine cat cats": [1, 6],
             "all apprentices": [-1, -1],
             "normal adult": [-1, -1]
         },
@@ -1941,8 +1941,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,
@@ -2023,8 +2023,8 @@
         "max_cats": 1,
         "min_max_status": {
             "apprentice": [-1, -1],
-            "healer apprentice": [1, 6],
-            "healer cats": [1, 6],
+            "medicine cat apprentice": [1, 6],
+            "medicine cat cats": [1, 6],
             "normal adult": [-1, -1]
         },
         "weight": 20,

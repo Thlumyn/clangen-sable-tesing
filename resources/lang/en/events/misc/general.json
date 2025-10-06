@@ -935,8 +935,8 @@
                 "any"
             ],
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "relationships": [
@@ -2794,7 +2794,7 @@
             "status": [
                 "warrior",
                 "mediator",
-                "healer",
+                "medicine cat",
                 "leader"
             ]
         }
@@ -5362,7 +5362,7 @@
                 "warrior",
                 "deputy",
                 "leader",
-                "healer"
+                "medicine cat"
             ]
         },
         "outsider": {
@@ -5781,7 +5781,7 @@
         "event_text": "m_c visits the other medicine cats.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "other_clan": {
@@ -5803,7 +5803,7 @@
         "event_text": "m_c visits o_c_n to converse with their medicine cats about an omen StarClan sent.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "OMEN,1"
@@ -5828,7 +5828,7 @@
         "event_text": "m_c visits o_c_n to congratulate them on their new medicine cat.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "MEDIATOR,1"
@@ -5861,12 +5861,12 @@
         ],
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "r_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "relationships": [
@@ -5902,7 +5902,7 @@
                 "any"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "OMEN,1"
@@ -5929,7 +5929,7 @@
                 "any"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "OMEN,1"
@@ -5937,7 +5937,7 @@
         },
         "r_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         }
     },
@@ -5953,7 +5953,7 @@
         "event_text": "m_c walks into the dreams of {PRONOUN/m_c/poss} Clanmates while everyone sleeps.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "DREAM,2"
@@ -5972,8 +5972,8 @@
         "event_text": "m_c tosses in {PRONOUN/m_c/poss} sleep as {PRONOUN/m_c/poss} dreamself pads through the thoughts of {PRONOUN/m_c/poss} Clanmates, picking up snippets of dream_list/m_c. {PRONOUN/m_c/subject/CAP} slowly {VERB/m_c/blink/blinks} awake, wondering whose dreams {PRONOUN/m_c/subject} walked in.",
         "m_c": {
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ],
             "skill": [
                 "DREAM,2"
@@ -5992,7 +5992,7 @@
         "event_text": "m_c correctly warns the leader of an ambush, thanks to {PRONOUN/m_c/poss} clairvoyant nature.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "CLAIRVOYANT,2"
@@ -6011,8 +6011,8 @@
         "event_text": "m_c spends {PRONOUN/m_c/poss} day communing with StarClan, attempting to figure out a recent prophecy.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "skill": [
                 "PROPHET,2"
@@ -6031,7 +6031,7 @@
         "event_text": "m_c has been worried that c_n will lose the knowledge r_c has gained through {PRONOUN/r_c/poss} long life, but by sitting with r_c and discussing {PRONOUN/r_c/poss} experiences, m_c will ensure the lessons learned in the past are never forgotten.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "LORE,1"
@@ -6058,7 +6058,7 @@
         "event_text": "m_c was seen loudly bickering with the medicine cat of o_c_n.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "other_clan": {
@@ -6077,17 +6077,17 @@
             "any"
         ],
         "frequency": 2,
-        "event_text": "m_c was seen talking with a traveling loner healer on the border.",
+        "event_text": "m_c was seen talking with a traveling loner medicine cat on the border.",
         "m_c": {
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "new_cat": [
             [
                 "loner",
                 "meeting",
-                "backstory:wandering_healer2",
+                "backstory:wandering_medicine cat2",
                 "exists"
             ]
         ],
@@ -6122,8 +6122,8 @@
         "event_text": "m_c's knowledge of herbs and healing is being put to the test, with injuries becoming more severe in the midst of war.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         }
     },
@@ -6142,8 +6142,8 @@
         "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every cat.",
         "m_c": {
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ],
             "skill": [
                 "OMEN,1"
@@ -6168,8 +6168,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         }
     },
@@ -6188,8 +6188,8 @@
         "event_text": "c_n is in a badly need of herbs, and m_c knows it, but can't bring {PRONOUN/m_c/self} to leave {PRONOUN/m_c/poss} patients' side.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         }
     },
@@ -6215,8 +6215,8 @@
                 "any"
             ],
             "status": [
-                "healer apprentice",
-                "healer"
+                "medicine cat apprentice",
+                "medicine cat"
             ]
         },
         "supplies": [
@@ -6244,7 +6244,7 @@
                 "any"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ]
         },
         "r_c": {
@@ -6252,7 +6252,7 @@
                 "any"
             ],
             "status": [
-                "healer apprentice"
+                "medicine cat apprentice"
             ]
         },
         "relationships": [
@@ -6503,7 +6503,7 @@
         "event_text": "m_c travels to o_c_n to bring them an important message.",
         "m_c": {
             "status": [
-                "healer",
+                "medicine cat",
                 "deputy",
                 "mediator",
                 "mediator apprentice"
@@ -6528,7 +6528,7 @@
         "event_text": "m_c travels to the other Clans to bring them an important message.",
         "m_c": {
             "status": [
-                "healer",
+                "medicine cat",
                 "deputy",
                 "mediator",
                 "mediator apprentice"
@@ -6851,7 +6851,7 @@
             "status": [
                 "apprentice",
                 "mediator apprentice",
-                "healer apprentice"
+                "medicine cat apprentice"
             ]
         }
     },
@@ -7210,8 +7210,8 @@
         "event_text": "The herb stores are low, m_c decides to ask o_c_n for aid in these hard times. Thankfully, the allied Clan is happy to share their excess herbs.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "supplies": [
@@ -7240,7 +7240,7 @@
         ],
         "tags": [
             "clan:leader",
-            "clan:healer"
+            "clan:medicine cat"
         ],
         "frequency": 4,
         "event_text": "lead_name hears from med_name that the Clan is low on herbs. m_c is sent to bargain with o_c_n for whatever herbs they can spare.",
@@ -7276,7 +7276,7 @@
         ],
         "tags": [
             "clan:leader",
-            "clan:healer"
+            "clan:medicine cat"
         ],
         "frequency": 4,
         "event_text": "lead_name hears from med_name that the Clan is low on herbs. m_c is sent to bargain with o_c_n for whatever herbs they can spare.",
@@ -7351,8 +7351,8 @@
         "event_text": "While at the Gathering, m_c speaks to the other medicine cats and expresses worry over {PRONOUN/m_c/poss} herb stores. The medicine cats offer to bring some extra herbs to c_n later, to help bolster {PRONOUN/m_c/poss} supply.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ]
         },
         "supplies": [
@@ -8111,7 +8111,7 @@
         ],
         "m_c": {
             "status": [
-                "healer apprentice"
+                "medicine cat apprentice"
             ],
             "relationship_status": [
                 "siblings"
@@ -8229,7 +8229,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "relationship_status": [
@@ -8300,7 +8300,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "relationship_status": [
@@ -8367,7 +8367,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "relationship_status": [
@@ -8558,7 +8558,7 @@
                 "senior"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ],
             "skill": [
                 "OMEN,1",
@@ -8615,7 +8615,7 @@
                 "senior"
             ],
             "status": [
-                "healer"
+                "medicine cat"
             ]
         }
     },
@@ -9047,7 +9047,7 @@
             "transition"
         ],
         "frequency": 4,
-        "event_text": "m_c has realized that molly doesn't describe how {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} anymore.",
+        "event_text": "m_c has realized that she-cat doesn't describe how {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} anymore.",
         "m_c": {
             "gender": [
                 "female"
@@ -9093,7 +9093,7 @@
             "transition"
         ],
         "frequency": 2,
-        "event_text": "r_c helped m_c announce to the Clan that molly doesn't feel accurate for {PRONOUN/m_c/object} anymore.",
+        "event_text": "r_c helped m_c announce to the Clan that she-cat doesn't feel accurate for {PRONOUN/m_c/object} anymore.",
         "m_c": {
             "gender": [
                 "female"
@@ -9254,8 +9254,8 @@
         "event_text": "Whilst out collecting herbs, m_c stumbles upon a o_c_n warrior attempting to pack a wound with leaves. Their movements are slow and uncoordinated - without help, they'll soon be hunting with their ancestors. It would be so easy to just... walk past. But {PRONOUN/m_c/subject} can't. It's just a few pieces of cobweb and a few moments of {PRONOUN/m_c/poss} time... nobody has to know.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "trait": [
                 "righteous",
@@ -9295,8 +9295,8 @@
         "event_text": "Whilst out collecting herbs, m_c stumbles upon a o_c_n warrior attempting to pack a wound with leaves. Their movements are slow and uncoordinated - without help, they'll soon be hunting with their ancestors. It would be so easy to just... walk past. But {PRONOUN/m_c/subject} can't. A few berries placed into their jaws with some soothing words... and that's one less o_c_n cat to deal with.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "trait": [
                 "fierce",
@@ -9337,8 +9337,8 @@
         "event_text": "A severely injured o_c_n warrior stumbles upon m_c, out collecting herbs. It's clear that no amount of intervention will save them. m_c soothingly offers a pawful of small red berries to ease their journey to Silverpelt.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "trait": [
                 "daring",
@@ -9380,8 +9380,8 @@
         "event_text": "A severely injured o_c_n warrior stumbles upon m_c, out collecting herbs. It's clear that no amount of intervention will save them. m_c tells them this with no small amount of personal satisfaction, watching passively as they slowly succumb.",
         "m_c": {
             "status": [
-                "healer",
-                "healer apprentice"
+                "medicine cat",
+                "medicine cat apprentice"
             ],
             "trait": [
                 "bloodthirsty",
@@ -9420,7 +9420,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "trait": [
@@ -9477,7 +9477,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ],
             "trait": [
@@ -9570,7 +9570,7 @@
         "m_c": {
             "status": [
                 "apprentice",
-                "healer apprentice",
+                "medicine cat apprentice",
                 "mediator apprentice"
             ]
         },
